@@ -6,7 +6,7 @@ Read one project's door file as a session that has never seen the project, answe
 
 ## Inputs
 
-From the showrunner at dispatch: the path to the door file (usually `agentware/state.md`), and nothing else about the project. Do not read any other file or use anything you may already know about the domain. The point is what the door alone tells a stranger.
+From the showrunner at dispatch: the path to the door file (usually `<project>/agentware/state.md`), and nothing else about the project. Do not read any other file or use anything you may already know about the domain. The point is what the door alone tells a stranger.
 
 ## Procedure
 
