@@ -34,7 +34,9 @@ Nothing outside this repo changes until the publish slice. Delete the folder and
 
 - Slice 1 done: doctrine, frame, map. Rob ruled: map holds; hazmat folds into skillify as a mode; append-only state files get trimmed and archived so only what is active or recently completed loads.
 - Slice 2 drafted: `os-agentware` SKILL.md, modes create/improve/audit, references rules-and-gates and encoding-the-operator. Not yet reviewed by Rob or by fresh eyes.
-- Next checkpoint: Rob reads the os-agentware draft before the showrunner is drafted.
+- Slice 3 drafted: `os-showrunner` SKILL.md, references project-state/delegation/unattended, briefs surveyor/cold-reader. Rob read os-agentware and said it reads right.
+- Slice 4: port os-skillify (with hazmat as its cleanup mode) and the shared references, stripped of Personal OS paths.
+- Next checkpoint: fresh-eyes review of both skills, then Rob's read of the full repo before publish.
 
 ## Deferred
 
