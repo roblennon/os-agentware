@@ -1,0 +1,10 @@
+# Rationale: os-agentware
+
+Why this skill is shaped the way it is. For whoever maintains it. Not loaded by the skill and nothing points here.
+
+- **The doctrine is a separate file in the operator's words**, and the skill tells the agent to read it rather than paraphrasing it. The previous version drifted into a model's register because every rewrite paraphrased the operator one step further. Keeping his text as the source, and pointing at it, is the fix for the class, not the instance.
+- **Three modes, not four beats.** The previous version used conversational "beats" (orient, explore, build, maintain) that blended running a project with building the system. Splitting the showrunner into its own skill left this one with three clear motions: make it, fold things in, look at it.
+- **Code and tooling are named in the anatomy.** The previous version said "nothing executes." Rob's doctrine says agentware is AI plus skills plus agents plus code plus process. Scripts and small GUIs are treated as first-class parts of a system here, and `improve` says when a lesson should become a script instead of a paragraph.
+- **Gates became advice.** The required cold-read check, the SELF-READ (weak) status, the closure surveyor, and the ratchet as a gate were dropped on Rob's October 2026 correction that proof-shaped friction makes a system oversteer itself. `rules-and-gates.md` carries the test for what transfers from software discipline: does it help the showrunner see and decide, or add a gate it must obey.
+- **No outside research.** The previous foundations doc carried research citations from an August 2026 pass. Rob ruled that research is how the last version went wrong, so this version is built from his own writing, corrections, and the live projects. The claims in the references are his.
+- **Layouts are defaults.** The state layout, the brief shape, and the install pattern are written as things the agentware considers, because most systems get built inside projects that already have conventions, and the previous version broke where it met one.
