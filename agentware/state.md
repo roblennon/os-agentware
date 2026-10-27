@@ -32,8 +32,9 @@ Nothing outside this repo changes until the publish slice. Delete the folder and
 
 ## In flight
 
-- Slice 1: doctrine written from the write-up, repo frame and map drafted. Awaiting Rob's read before the skills are drafted.
-- Next checkpoint: Rob rules on the map (what the repo holds, which companion skills travel) and on the doctrine edits.
+- Slice 1 done: doctrine, frame, map. Rob ruled: map holds; hazmat folds into skillify as a mode; append-only state files get trimmed and archived so only what is active or recently completed loads.
+- Slice 2: drafting `os-agentware` (SKILL, modes create/improve/audit, references).
+- Next checkpoint: Rob reads the os-agentware draft before the showrunner is drafted.
 
 ## Deferred
 

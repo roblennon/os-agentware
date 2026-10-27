@@ -8,7 +8,7 @@ The shape of the repo. One line per piece, what points at it, what it points at.
 os-agentware/
   README.md                        the door for a stranger; points at the skills and the doctrine
   AGENTS.md                        lean, always loads; points at agentware/state.md and the skills
-  agentware/                       this repo's own state (state, map, decisions)
+  agentware/                       this repo's own state: state (the door, kept short), map, decisions (trimmed; settled entries move to archive/)
   skills/
     os-agentware/                  the concept: create, improve, and audit an agentware system
       SKILL.md                     (planned)
@@ -20,8 +20,7 @@ os-agentware/
       references/delegation.md     (planned) workers, lieutenants, briefs, coordinating on shared main
       references/unattended.md     (planned) heartbeats, one engine, stop conditions, dead-thread recovery
       briefs/                      (planned) reusable worker briefs: surveyor, cold reader
-    os-skillify/                   (planned) portable skill authoring, Personal OS mandates stripped
-    os-hazmat/                     (planned) cleanup pass after AI writes instruction files
+    os-skillify/                   (planned) portable skill authoring, Personal OS mandates stripped; hazmat (the cleanup pass after AI writes instruction files) is a mode of it
     _shared/references/            (planned) prompting principles, frontmatter rules, naming, skill-vs-mode-vs-reference, self-extending, work orientation, AI writing patterns, SOP completeness
   sops/                            (planned) installing into a project, harness notes, cleanup at milestones
 ```

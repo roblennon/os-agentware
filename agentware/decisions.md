@@ -1,6 +1,14 @@
 # os-agentware: decisions
 
-Newest first. One entry per decision with its why. Corrections append.
+Newest first. One entry per decision with its why. Entries whose consequences have landed in the files get trimmed to one line or moved to `archive/decisions-<year>.md` at checkpoints, so this file only carries what still shapes the work.
+
+## 2026-10-27 — State files are trimmed, not append-only
+
+Rob: "the decision log may be getting too much prominence here. For things that always get added to and never get trimmed or archived (this includes state.md) there is bloat. I would rather some of these things be optional and auto-cleaned/archived so that only what is actively relevant or recently completed is forced into context." So: state.md carries what is in flight and recently completed; decisions.md is optional and gets trimmed or archived at checkpoints; the showrunner does the cleanup as part of closing a slice. The old skill's "append-only, nothing gets edited" rule is dropped.
+
+## 2026-10-27 — Hazmat is a mode of skillify
+
+The cleanup pass after AI writes instruction files travels as a mode of `os-skillify`, not a separate skill. Why: Rob's ruling; fewer skills, one place for everything about writing instruction files.
 
 ## 2026-10-27 — Doctrine retained near-verbatim from Rob's write-up
 
