@@ -1,6 +1,6 @@
 # SOP completeness: can you actually hand this procedure to someone?
 
-A shared judgment reference for any skill that writes or evaluates SOPs. Used by `os-content-mining/sop` when deciding what a source can honestly support, and by `os-skillify/from-prompt` when judging an SOP it's been handed as conversion input.
+A shared judgment reference for any skill that writes or evaluates SOPs. `os-skillify`'s `from-prompt` uses it when judging an SOP it has been handed as conversion input, and any skill that extracts procedures from source material can use it to decide what the source honestly supports.
 
 The question this reference answers: **is there enough here that a person who wasn't in the room could do the thing?** Not "does it sound complete": sources are often confident in exact proportion to how little they specify.
 

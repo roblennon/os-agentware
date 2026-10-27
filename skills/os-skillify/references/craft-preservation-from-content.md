@@ -26,9 +26,9 @@ Uniquely memorable lines or paragraphs that drive home concepts. Often live as q
 
 **Examples:**
 
-- *"Fast, free, easy — pick two."*
+- *"Fast, free, easy. Pick two."*
 - *"The riches are in the niches."*
-- *"Don't sell the steak — sell the sizzle."*
+- *"Don't sell the steak, sell the sizzle."*
 
 **The move:** lift verbatim phrases into the produced tool where they sharpen clarity or authority. Typical placements: success quality descriptions, example outputs, framing lines in process steps. Don't paraphrase these, paraphrasing flattens them.
 
@@ -68,10 +68,10 @@ Surface what was found before designing the tool. Confirmation step lets the use
 
 ## Tradeoffs
 
-**Verbatim lift vs. house style.** Skills written for this pack lean toward restrained bullets and plain punctuation, and their frontmatter follows `../../_shared/references/frontmatter-format.md`. Source content often runs the other way, with dense bullets, heavy punctuation, and vivid emoji. When lifting verbatim would import that:
+**Verbatim lift vs. house style.** Skills written with this skill lean toward restrained bullets and plain punctuation (the house style in `../../_shared/references/skill-prompting-principles.md`), and their frontmatter follows `../../_shared/references/frontmatter-format.md`. Source content often runs the other way, with dense bullets, heavy punctuation, and vivid emoji. When lifting verbatim would import that:
 
 - For skill output: keep the wording and put it in a quoted block, which exempts it from house style. Rewrite only when the clash actually matters and the rewrite gains something beyond compliance.
-- For copy-pasteable output: keep verbatim. That format follows the source author's voice rather than this pack's.
+- For copy-pasteable output: keep verbatim. That format follows the source author's voice rather than the house style.
 
 **Framework-specific terminology vs. accessibility.** Some signature terms are clear in context but opaque without source familiarity. The tool should use the source's term *and* briefly define it when first introduced. The term carries authority, the definition makes the tool usable for someone who hasn't read the source.
 

@@ -112,4 +112,3 @@ It does **not** change which sub-mode runs. `from-prompt` is still `from-prompt`
 - `interview-the-need.md`: type-lens-aware question bank
 - `consolidation-rubric.md`: type-lens-aware weighting for `consolidate` mode
 - `divergent-strengths-templates.md`: type-lens-aware divergent-strengths instructions for `dual-lane` mode
-- `../../_shared/references/creative-criteria.md`: adjacent reference for creative-domain quality criteria

@@ -21,15 +21,15 @@ os-agentware/
       references/delegation.md     workers, lieutenants, briefs, several agents on one tree
       references/unattended.md     heartbeats, one engine, stop conditions, dead-thread recovery
       briefs/                      reusable worker briefs: surveyor, cold reader
-    os-skillify/                   (planned) portable skill authoring, Personal OS mandates stripped; hazmat (the cleanup pass after AI writes instruction files) is a mode of it
-    _shared/references/            (planned) prompting principles, frontmatter rules, naming, skill-vs-mode-vs-reference, self-extending, work orientation, AI writing patterns, SOP completeness
+    os-skillify/                   skill authoring and repair: generative modes, extend, refine, enhance, dual-lane, consolidate, cleanup (nicknamed hazmat)
+    _shared/references/            prompting principles, update protocol, frontmatter rules, naming, skill-vs-mode-vs-reference, self-extending, example rules, scaffolding, SOP completeness, AI writing patterns, context capacity
   sops/                            installing into a project, cleanup at milestones
 ```
 
 ## Crew
 
 - Showrunner: this session (Claude Fable 5.1), single writer for the skills in this slice.
-- Reviewers (planned): Fable 5.1 subagents for fresh eyes on each skill and a cold read of state.md. Reports only; the showrunner folds them in.
+- Reviewers: Fable 5.1 subagents for fresh eyes on each skill. Reports only; the showrunner folds them in. One port worker (Fable 5.1) wrote os-skillify and _shared from the source workspace under a brief; the showrunner reviewed the result.
 
 ## Routing
 

@@ -12,7 +12,7 @@ A symlink from the project's skills folder to this repo's `skills/<name>` keeps 
 
 A whole-folder copy is the fallback when the harness does not follow symlinks (some headless modes do not). If you copy, note it in the project's decisions with the refresh rule: re-copy from the repo, do not hand-edit the copy, or the two will drift and one of them will be wrong.
 
-Before relying on a link for an unattended run, prove it: dispatch one minimal headless run that reads a file from the skill folder through the link and quotes a line back. `skills/os-showrunner/references/unattended.md` says why.
+Before relying on a link for an unattended run, prove it: dispatch one minimal headless run that reads a file from the skill folder through the link and quotes a line back. `../skills/os-showrunner/references/unattended.md` says why.
 
 ## The shared references
 

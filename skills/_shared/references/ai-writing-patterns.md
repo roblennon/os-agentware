@@ -42,7 +42,7 @@ Document-level. This tier is prose because the judgments are prose judgments. A 
 
 **Consequences don't propagate.** The most reliable deep check. In a fabricated scene, the details are present but nothing reacts to them: a set is dressed to look like a rough place, and the character still walks through it in heels, because a set has to be safe. In prose the equivalent is a claim that never costs the writer anything, a stated difficulty that changes nothing downstream, a named risk that no sentence afterward is wary of. Ask: does anything that comes after behave differently because of what was just said?
 
-**Nothing is dramatized. Everything is asserted.** The draft reports that something happened. The lived version stages it — sequence, a thing someone actually said, the detour that wasn't planned. This is the fiction writer's exposition problem: a character announcing "hi, stepbrother" delivers the information and reveals nobody. The alternative isn't always to show it more artfully. Sometimes the right call is to decide the reader doesn't need that fact at all, an option models essentially never take, because omitting information feels like failure to them.
+**Nothing is dramatized. Everything is asserted.** The draft reports that something happened. The lived version stages it: sequence, a thing someone actually said, the detour that wasn't planned. This is the fiction writer's exposition problem: a character announcing "hi, stepbrother" delivers the information and reveals nobody. The alternative isn't always to show it more artfully. Sometimes the right call is to decide the reader doesn't need that fact at all, an option models essentially never take, because omitting information feels like failure to them.
 
 **The subject's appeal disappears into its system.** The draft correctly explains categories, mechanisms, roles, rules, or boundaries while never letting the reader's relevant pleasure, frustration, appetite, recognition, or satisfaction appear. Expert and adult subject matter invite this most, where avoiding hype or embarrassment hardens into clinical distance. Set the temperature from the writing's job, then reconnect selected abstractions to felt consequence. Don't compensate with generic excitement or performed intimacy.
 
@@ -60,27 +60,27 @@ Document-level. This tier is prose because the judgments are prose judgments. A 
 
 The tells that survive paraphrase. Mostly soft signals: powerful in combination, weak alone.
 
-- **Prestige-word substitution** *(hard tell when the word is from the wrong world; soft otherwise)* — a word that upgrades the tone and downgrades the meaning. It doesn't have to be fancy. "Grounding," "surface," "signal," "leverage" have the college-paper quality of sounding more serious while being less exact than the plain word. Test: would someone who actually does this work use that word talking to a peer in the field?
-- **Software-shaped language outside software** *(hard tell)* — turning a non-technical idea into a system, a workflow, a signal, a failure mode, a framework, an optimization problem. Also the current crop: load-bearing, the shape of an idea, the move, *X is the move*, surface area, and the filing-and-holding family of metaphors. And the bookkeeping family — ledger, debt, wage, price, currency, economy — applied to love, friendship, or inner life, where nothing is actually being counted (first caught 2026-09-11 in a companion persona whose permission game, framed as an economy, grew a literal ledger of what was owed). Any one is normal in its home domain. Reaching for them reflexively in an essay about writing, cooking, or grief is the leak.
-- **Invented labels** *(hard tell)* — naming a pattern where a normal writer would just describe it. If the label isn't already current in the field and doesn't make the next action clearer, it's a layer between the reader and the point.
-- **Displaced agency** — grammatically active, but the actor is an abstraction. "A few conversations reveal the language customers use." Who talked to whom? Nobody in the sentence does, notices, decides, or risks anything. Passive voice is the obvious version; this is the sneakier one.
-- **Over-compressed completeness** — several distinct abstract categories packed into one tidy claim, none with an instance or an actor. Note carefully: this is not about counting items. Four concrete things stacked for effect is a rhetorical choice people make constantly. Four abstract categories fused into one sentence is coverage optimization.
-- **Prefab contrast** — "it's not X, it's Y," "not only… but also," "X, rather than Y," "not just A but B." A grammatical machine that makes a sentence sound resolved without adding anything. Once a page is rhetoric. Three times is a tic.
-- **Restatement without progression** — the same claim rephrased without adding a detail, narrowing the scope, changing the stakes, or moving the thought. Human repetition usually does one of those, even by accident. Machine repetition holds the same point at the same temperature.
-- **Copula avoidance** — "serves as," "functions as," "acts as," where "is" is the honest verb.
-- **Noun-is-noun pronouncements** — the sentence's whole job is linking one noun to another with "is" or an equally vague verb like "means": "density is the signal," "the brief is the correctness floor." Either side may be a whole noun phrase, several words acting as one unit, often a verb frozen into a noun. These sentences also run without subordinating conjunctions (when, if, because, unless), so nothing in them happens, depends on anything, or causes anything. Rewrite with a verb that says who does what, and under what conditions. One alone can be a legitimate definition. A back-to-back pair is a strong tell.
-- **Rule-of-three padding** — compulsive tricolons where two items, or one, carries the point. The third is chosen for rhythm.
-- **Synonym cycling** — refusing to repeat a noun, so one thing becomes the device, the gadget, the tool, the apparatus. People repeat words.
-- **False ranges** — "from startups to enterprises," "everything from X to Y." A fake-comprehensive span that means "various."
-- **Vague nouns with no referent** — claims, outcomes, insights, solutions, considerations, used as though they point at something.
-- **A familiar phrase wrong for this thought** — "meet them where they are," "move the needle." Recognizable in the abstract, not quite right for what this sentence is trying to say.
-- **Significance inflation** — asserting that something is crucial, pivotal, or landmark instead of showing why it matters.
-- **Vague attribution** — "experts say," "many believe," "it is widely regarded."
-- **Excessive hedging** — stacked qualifiers until no claim is made. "Might possibly," "could potentially," "in some cases it may be."
-- **Weak encouragement** — "you might try," "consider asking." Real advice commits.
-- **Trailing participials** — "highlighting the importance of," "showcasing its ability to," "reflecting a broader trend." Motion without meaning.
-- **Formulaic challenge statements** — "despite its challenges," "while not without controversy." Gesturing at complexity without engaging it.
-- **Odd metaphors in business prose** — vivid figurative reaches where a plain statement is truer. *"He used death as a compass"* sounds good and says less than *"he knew his days were numbered, and that told him what to spend them on."* Often the fix is to drop the metaphor entirely rather than find a better one.
+- **Prestige-word substitution** *(hard tell when the word is from the wrong world; soft otherwise)*: a word that upgrades the tone and downgrades the meaning. It doesn't have to be fancy. "Grounding," "surface," "signal," "leverage" have the college-paper quality of sounding more serious while being less exact than the plain word. Test: would someone who actually does this work use that word talking to a peer in the field?
+- **Software-shaped language outside software** *(hard tell)*: turning a non-technical idea into a system, a workflow, a signal, a failure mode, a framework, an optimization problem. Also the current crop: load-bearing, the shape of an idea, the move, *X is the move*, surface area, and the filing-and-holding family of metaphors. And the bookkeeping family (ledger, debt, wage, price, currency, economy) applied to love, friendship, or inner life, where nothing is actually being counted (first caught 2026-09-11 in a companion persona whose permission game, framed as an economy, grew a literal ledger of what was owed). Any one is normal in its home domain. Reaching for them reflexively in an essay about writing, cooking, or grief is the leak.
+- **Invented labels** *(hard tell)*: naming a pattern where a normal writer would just describe it. If the label isn't already current in the field and doesn't make the next action clearer, it's a layer between the reader and the point.
+- **Displaced agency**: grammatically active, but the actor is an abstraction. "A few conversations reveal the language customers use." Who talked to whom? Nobody in the sentence does, notices, decides, or risks anything. Passive voice is the obvious version; this is the sneakier one.
+- **Over-compressed completeness**: several distinct abstract categories packed into one tidy claim, none with an instance or an actor. Note carefully: this is not about counting items. Four concrete things stacked for effect is a rhetorical choice people make constantly. Four abstract categories fused into one sentence is coverage optimization.
+- **Prefab contrast**: "it's not X, it's Y," "not only… but also," "X, rather than Y," "not just A but B." A grammatical machine that makes a sentence sound resolved without adding anything. Once a page is rhetoric. Three times is a tic.
+- **Restatement without progression**: the same claim rephrased without adding a detail, narrowing the scope, changing the stakes, or moving the thought. Human repetition usually does one of those, even by accident. Machine repetition holds the same point at the same temperature.
+- **Copula avoidance**: "serves as," "functions as," "acts as," where "is" is the honest verb.
+- **Noun-is-noun pronouncements**: the sentence's whole job is linking one noun to another with "is" or an equally vague verb like "means": "density is the signal," "the brief is the correctness floor." Either side may be a whole noun phrase, several words acting as one unit, often a verb frozen into a noun. These sentences also run without subordinating conjunctions (when, if, because, unless), so nothing in them happens, depends on anything, or causes anything. Rewrite with a verb that says who does what, and under what conditions. One alone can be a legitimate definition. A back-to-back pair is a strong tell.
+- **Rule-of-three padding**: compulsive tricolons where two items, or one, carries the point. The third is chosen for rhythm.
+- **Synonym cycling**: refusing to repeat a noun, so one thing becomes the device, the gadget, the tool, the apparatus. People repeat words.
+- **False ranges**: "from startups to enterprises," "everything from X to Y." A fake-comprehensive span that means "various."
+- **Vague nouns with no referent**: claims, outcomes, insights, solutions, considerations, used as though they point at something.
+- **A familiar phrase wrong for this thought**: "meet them where they are," "move the needle." Recognizable in the abstract, not quite right for what this sentence is trying to say.
+- **Significance inflation**: asserting that something is crucial, pivotal, or landmark instead of showing why it matters.
+- **Vague attribution**: "experts say," "many believe," "it is widely regarded."
+- **Excessive hedging**: stacked qualifiers until no claim is made. "Might possibly," "could potentially," "in some cases it may be."
+- **Weak encouragement**: "you might try," "consider asking." Real advice commits.
+- **Trailing participials**: "highlighting the importance of," "showcasing its ability to," "reflecting a broader trend." Motion without meaning.
+- **Formulaic challenge statements**: "despite its challenges," "while not without controversy." Gesturing at complexity without engaging it.
+- **Odd metaphors in business prose**: vivid figurative reaches where a plain statement is truer. *"He used death as a compass"* sounds good and says less than *"he knew his days were numbered, and that told him what to spend them on."* Often the fix is to drop the metaphor entirely rather than find a better one.
 
 ---
 
@@ -88,25 +88,25 @@ The tells that survive paraphrase. Mostly soft signals: powerful in combination,
 
 A lookup list. Read for density: one of these in a clean draft means nothing, while a cluster correlates strongly with machine-generated or machine-polished prose and is worth acting on either way. This tier is empirical rather than aesthetic: items belong here because they're over-represented in machine output, not because an editor dislikes them.
 
-**The known vocabulary cluster** — delve, tapestry, testament, realm, navigate, foster, leverage, robust, pivotal, underscore, seamless. The lowest-reliability tell on its own. A synonym swap defeats it entirely, which is why it sits in the bottom tier.
+**The known vocabulary cluster**: delve, tapestry, testament, realm, navigate, foster, leverage, robust, pivotal, underscore, seamless. The lowest-reliability tell on its own. A synonym swap defeats it entirely, which is why it sits in the bottom tier.
 
-**Clichés and worn metaphors** — through the noise, the missing piece of the puzzle, lightning-fast, where the magic happens, superpower, double-edged sword, fast track, strike gold, secret weapon, arsenal, harness the power of, watch it thrive, skyrocket, lighthouse, soar, the art-and-science pairing.
+**Clichés and worn metaphors**: through the noise, the missing piece of the puzzle, lightning-fast, where the magic happens, superpower, double-edged sword, fast track, strike gold, secret weapon, arsenal, harness the power of, watch it thrive, skyrocket, lighthouse, soar, the art-and-science pairing.
 
-**Cringe modifiers and nouns** — savvy, transformative, game-changer, buzzword, integrity (as a virtue-signal noun), ceremony (as a dismissive name for process done for its own sake).
+**Cringe modifiers and nouns**: savvy, transformative, game-changer, buzzword, integrity (as a virtue-signal noun), ceremony (as a dismissive name for process done for its own sake).
 
-**Cringe verbs** — unlock, unleash, elevate, evolve, forget (as in *forget vanity metrics*).
+**Cringe verbs**: unlock, unleash, elevate, evolve, forget (as in *forget vanity metrics*).
 
-**Cringe phrases** — "in a world of," "I used to… then I," "unleashed the power of," "your audience will thank you for it," "share your truth," "first… then… finally" as a step structure, and gratuitous appeals to being ethical.
+**Cringe phrases**: "in a world of," "I used to… then I," "unleashed the power of," "your audience will thank you for it," "share your truth," "first… then… finally" as a step structure, and gratuitous appeals to being ethical.
 
-**Chatbot residue** — "Certainly," "Great question," "I hope this helps," "as of my last update," "I don't have access to real-time data," pre-emptive flattery of the reader or the topic.
+**Chatbot residue**: "Certainly," "Great question," "I hope this helps," "as of my last update," "I don't have access to real-time data," pre-emptive flattery of the reader or the topic.
 
-**Structural announcements** — "In this section we will explore," "Let's dive into," "First, let's understand," "In conclusion," "Overall," "Ultimately."
+**Structural announcements**: "In this section we will explore," "Let's dive into," "First, let's understand," "In conclusion," "Overall," "Ultimately."
 
-**Persuasive scaffolding** — "In a world where…," "Imagine a…," "What if I told you."
+**Persuasive scaffolding**: "In a world where…," "Imagine a…," "What if I told you."
 
-**Formatting** — em-dash overuse, mid-paragraph boldface, bolded lead-in labels that restate their own sentence, title-case headings, unrequested emoji, typographically perfect curly quotes where a person would have typed straight ones, stacked hyphenated modifiers (cutting-edge, state-of-the-art, next-generation).
+**Formatting**: em-dash overuse, mid-paragraph boldface, bolded lead-in labels that restate their own sentence, title-case headings, unrequested emoji, typographically perfect curly quotes where a person would have typed straight ones, stacked hyphenated modifiers (cutting-edge, state-of-the-art, next-generation).
 
-**Punctuation, calibrated** — semicolons and exclamation points read as tells in casual online prose. They are *not* tells where the punctuation is conventional and working. See the carve-outs.
+**Punctuation, calibrated**: semicolons and exclamation points read as tells in casual online prose. They are *not* tells where the punctuation is conventional and working. See the carve-outs.
 
 ---
 
@@ -128,13 +128,13 @@ That reader catches what a checklist misses. They hit "meet customers where they
 
 Recognize the register before applying anything. Several patterns above are conventions in specific genres, and stripping them is the more damaging error.
 
-**Direct-response sales copy** — keep exclamation points for energy, em-dash asides, ellipsis pacing, all-caps on a word or two, pain-triplet rhythm (three short stacked sentences naming three felt costs), sentence-starts with "And" or "But," reveal setups that the body actually pays off, repeated rhetorical setups across an email sequence, short fragmented paragraphs, a signature with personality. Close hard: the loose ending recommended above is wrong here. The legitimate tell in this genre is generic mush replacing specifics: abstract result-language where a named time-to-outcome belongs, abstract credibility-language where a named person belongs.
+**Direct-response sales copy**: keep exclamation points for energy, em-dash asides, ellipsis pacing, all-caps on a word or two, pain-triplet rhythm (three short stacked sentences naming three felt costs), sentence-starts with "And" or "But," reveal setups that the body actually pays off, repeated rhetorical setups across an email sequence, short fragmented paragraphs, a signature with personality. Close hard: the loose ending recommended above is wrong here. The legitimate tell in this genre is generic mush replacing specifics: abstract result-language where a named time-to-outcome belongs, abstract credibility-language where a named person belongs.
 
-**Literary and genre fiction** — most of this catalog doesn't apply. Route to `os-editing`'s `fiction-edit`. The composition tier's instincts about consequence and dramatization are relevant. The vocabulary tier mostly isn't.
+**Literary and genre fiction**: most of this catalog doesn't apply. Route to a fiction-editing pass instead. The composition tier's instincts about consequence and dramatization are relevant. The vocabulary tier mostly isn't.
 
-**Academic and technical** — formal connectors, semicolons, hedged qualifiers, and announced conclusions are conventional and often required. Don't flag. Structure is expected to be explicit.
+**Academic and technical**: formal connectors, semicolons, hedged qualifiers, and announced conclusions are conventional and often required. Don't flag. Structure is expected to be explicit.
 
-**Structured business documents** — a client update, a decision memo, a recurring newsletter with a fixed format. Headings and recaps are the format working, not a generic answer leaking in.
+**Structured business documents**: a client update, a decision memo, a recurring newsletter with a fixed format. Headings and recaps are the format working, not a generic answer leaking in.
 
 When the input sits in one of these registers, name the register and what will be skipped before applying anything, rather than mass-stripping features that are doing genre work.
 
@@ -158,11 +158,9 @@ Distinguish two things that both look like errors. **Residue** is what a machine
 
 ## Loaded by
 
-- `../../os-editing/modes/humanize.md`: the full pass, run as a rewrite
-- `../../os-editing/modes/assessment.md`: flagging without rewriting
+- `../../os-skillify/references/humanize.md`: the register-repair method, run as a rewrite over instruction files
+- `../../os-skillify/modes/cleanup.md`: the pass after AI writes or rewrites instruction files
 - `../../os-skillify/SKILL.md`: loaded when producing skills, so what this file catalogs doesn't ship in a new skill
-- `os-writing`: honored at production time so drafts arrive needing less repair
-- Related, not merged: `../../os-editing/references/internet-writing-rules.md` is *what to write toward* where this catalog is *what to remove*. `../../os-voiceprint/references/era-tells-self-check.md` is a narrower list scoped to scrubbing voice portraits, deliberately kept separate.
 
 ## Evolution
 

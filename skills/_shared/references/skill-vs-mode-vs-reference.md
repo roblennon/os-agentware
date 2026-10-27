@@ -52,7 +52,7 @@ Counter-example: Offer Brainstormer and Landing Page Writer both fall under "mar
 A category skill with modes looks like:
 
 ```
-skills/os-editing/
+skills/os-prose-editing/
   SKILL.md                   # category-level trigger, mode routing
   references/
     copy-editing-checklist.md
@@ -116,8 +116,7 @@ Example: Two skills that happen to mention "Schwartz awareness" incidentally but
 1. Write the canonical version at `_shared/references/<topic>.md`. Consolidate from both skill-internal versions where possible. Prefer the clearer phrasing.
 2. Add a **malleability note** to the shared reference describing what's canonical (the shape of the framework) and what's adaptable (skill-specific calibration). Malleability notes prevent the reference from becoming sacred and let skills diverge with a documented reason when needed.
 3. Update the original skill-internal references to cross-reference the shared version rather than duplicating content. Each skill's reference may include skill-specific usage notes ("When to use in this skill's modes: ...") below the cross-reference.
-4. Update the `_shared/references/README.md` to list the new promoted reference.
-5. Note the promotion in both skills' decision logs (or in the verification batch file for the current skillify run).
+4. Note the promotion in both skills' decision logs (or in the verification batch file for the current skillify run), and in the shared folder's index if the project keeps one.
 
 ### Path conventions for shared references
 
@@ -131,6 +130,6 @@ Cross-skill references to other skills' modes/references should be rare. They're
 
 ## Path conventions summary
 
-The canonical workspace tree lives in `naming-conventions.md` and isn't restated here. One tree, one place to correct when the layout moves.
+The skill folder tree lives in `naming-conventions.md` and isn't restated here. One tree, one place to correct when the layout moves.
 
 The two rules this file depends on: skills live at `skills/<skill-name>/`, and shared references live at `skills/_shared/references/`. Nothing belongs outside those two trees.

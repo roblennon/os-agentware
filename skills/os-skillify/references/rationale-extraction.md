@@ -52,7 +52,7 @@ Nothing in SKILL.md, a mode, or a reference links to the file. It ships with the
 
 Keep each note to one or two sentences. The goal is enough clarity to act on, not comprehensive documentation. Domain knowledge the model needs at run time belongs in a reference, not here.
 
-Until 2026-10-16 these notes lived in a Design Rationale section inside SKILL.md, and often inside modes and references too, which put them in front of the model on every trigger. A rationale section still sitting inside a loaded file is now a finding for `enhance` and for Hazmat: move it out, and leave inline only the why a rule needs.
+Until 2026-10-16 these notes lived in a Design Rationale section inside SKILL.md, and often inside modes and references too, which put them in front of the model on every trigger. A rationale section still sitting inside a loaded file is now a finding for `enhance` and for `cleanup`: move it out, and leave inline only the why a rule needs.
 
 ## Worked example: rationale notes from a voiceprint-generator prompt
 

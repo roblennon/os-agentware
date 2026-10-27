@@ -1,6 +1,6 @@
 # Self-extending skills: when a skill should grow in response to use
 
-Some skills serve a domain where the user's needs keep producing new shapes the original author didn't anticipate. A writing skill that ships with five mode types meets users who write a sixth. An editing skill with four lenses meets users who want a fifth. A voiceprint skill with one capture method meets users whose voice doesn't fit cleanly. For these skills, the buyer's experience improves when the skill itself is *greedy about extension*: when asked to do something it doesn't yet support, it surfaces the gap explicitly and offers to set up the new capability based on examples the user supplies, rather than declining the request or forcing it through the wrong existing capability.
+Some skills serve a domain where the user's needs keep producing new shapes the original author didn't anticipate. A writing skill that ships with five mode types meets users who write a sixth. An editing skill with four lenses meets users who want a fifth. A voiceprint skill with one capture method meets users whose voice doesn't fit cleanly. For these skills, the user's experience improves when the skill itself is *greedy about extension*: when asked to do something it doesn't yet support, it surfaces the gap explicitly and offers to set up the new capability based on examples the user supplies, rather than declining the request or forcing it through the wrong existing capability.
 
 This reference is the canonical doc for that disposition. It exists because the lesson otherwise scatters across the skill bodies that embody it, the audit lens that checks for it, and the meta-skills that build new skills without baking it in. One source of truth keeps all three aligned.
 
@@ -24,7 +24,7 @@ When an additive skill meets a request it doesn't currently support, the respons
 
 **Offer two paths.** First path: set the new capability up for next time. The user supplies one or more examples (a sample they've done before, a sample from another source whose shape they want to mirror, a rough sketch with notes) and the skill hands off to the appropriate skill-creation or library-save flow to make the new capability first-class. Second path: run once without setup. The skill uses the closest existing capability as a starting point and the supplied source as substance. No artifact gets saved. The output is the only result. The user picks based on whether the need is recurring or a one-off.
 
-**Hand off cleanly when setup is chosen.** The skill isn't trying to do skill-creation itself. That's `os-skillify`'s job. It isn't trying to be the library. That's `os-library`. When the user picks the setup path, the skill hands the examples and framing to the appropriate flow and gets out of the way. Knowing when to invite another skill is the craft. Trying to do everything is how this breaks.
+**Hand off cleanly when setup is chosen.** The skill isn't trying to do skill-creation itself. That's `os-skillify`'s job. It isn't trying to be the place where examples and templates get stored either. When the user picks the setup path, the skill hands the examples and framing to the appropriate flow and gets out of the way. Knowing when to invite another skill is the craft. Trying to do everything is how this breaks.
 
 ## The greedy-when-recurring discipline
 
@@ -38,9 +38,9 @@ When the signal is ambiguous, the skill asks. The cost of the question is low. T
 
 A skill frozen at its initial capability list quietly shrinks the user's ambitions to what the skill already supports. The user stops asking for the things the skill won't do: not because they don't need them, but because they've learned the skill says no. Over months, the user's actual range of work gets compressed into the skill's original scope, and the skill becomes a ceiling.
 
-A skill that extends in response to use does the opposite. It grows alongside the user's practice. The user asks for something new, the skill adds the capability, the next user-ask reaches further. The skill becomes more *theirs* over time. A buyer who feels that keeps opening it. A buyer who doesn't, stops after a month.
+A skill that extends in response to use does the opposite. It grows alongside the user's practice. The user asks for something new, the skill adds the capability, the next user-ask reaches further. The skill becomes more *theirs* over time. A user who feels that keeps opening it. A user who doesn't, stops after a month.
 
-This pattern is what justifies the workspace-shaped install (per `workspace-layout.md`). The user's workspace is the source of truth for their capabilities, the skills they install are starting points, and the meta-skills (`os-skillify`, `os-tune`, `os-library`) are how those starting points grow into something shaped to the user's actual work.
+This is also why skills live as editable files in the project rather than as sealed packages. The installed skills are starting points, and `os-skillify` (its `extend` and `refine` modes especially) is how those starting points grow into something shaped to the user's actual work.
 
 ## Before and after
 
@@ -56,20 +56,19 @@ The structural difference is one round-trip and a hand-off. The experiential dif
 
 ## Used by
 
-- `audit-lens.md` (the os-skillify `enhance` audit lens) loads this reference as Lens 6 when auditing skills. The additive-vs-complete distinction tells the auditor whether the lens applies to the skill in front of them.
-- `os-skillify` (SKILL.md + four sub-modes) loads this reference during the build phase. When the skill being created is additive, the produced skill includes a self-extending section pointing at this reference. When complete, the section is omitted.
-- `os-tune` loads this reference in three modes. `extend` consults it when designing a new mode (the new mode may itself need self-extension awareness, and adding a mode is a moment to ask whether the host skill should gain the disposition if it doesn't have it). `refine` consults it because a tweak request framed as "the skill should handle X too" is literally a self-extension trigger that should be offered the cleaner path. `reflect` uses it as a pattern-detection lens: a heavily-used additive skill missing self-extending behavior is a refine candidate.
-- `inheritance-protocol.md` (in `os-tune/references/`) lists this as one of the canonical sources loaded by meta-skill operations.
-- `os-writing` and similar additive skills reference this doc explicitly so readers encountering the self-extending section in those skills can find the principle behind it.
+- `os-skillify`'s generative modes load this during the build phase. When the skill being created is additive, the produced skill includes a self-extending section pointing at this reference. When complete, the section is omitted.
+- `os-skillify`'s `enhance` mode uses the additive-vs-complete distinction when auditing: it tells the auditor whether a missing self-extending section is a gap or correct.
+- `os-skillify`'s `extend` consults it when designing a new mode (adding a mode is a moment to ask whether the host skill should gain the disposition if it doesn't have it). `refine` consults it because a tweak request framed as "the skill should handle X too" is a self-extension trigger that should be offered the cleaner path.
+- Additive skills built with this reference point at it, so readers who meet a self-extending section can find the principle behind it.
 
 ## Malleability note
 
 Canonical: the additive-vs-complete distinction, the three-beat pattern, and the greedy-when-recurring discipline. These are the core concepts. Skills that diverge from them confuse the user about which path they're being offered.
 
-Adaptable: how the three-beat pattern actually surfaces in a given skill. A writing skill's "surface the gap" may use the language of formats and modes. An editing skill's may use lenses. A voiceprint skill's may use scope names. The shape of the offer-two-paths beat may vary too. The "set up for next time" path could hand off to skillify (for a new mode) or to os-library/save (for a new template, brief, or style sample). What matters is that both paths exist explicitly and the hand-off is clean, not the exact phrasing or destination.
+Adaptable: how the three-beat pattern actually surfaces in a given skill. A writing skill's "surface the gap" may use the language of formats and modes. An editing skill's may use lenses. A voiceprint skill's may use scope names. The shape of the offer-two-paths beat may vary too. The "set up for next time" path could hand off to skillify (for a new mode) or to wherever the project keeps templates, briefs, or style samples (for a new one of those). What matters is that both paths exist explicitly and the hand-off is clean, not the exact phrasing or destination.
 
 Skills that genuinely don't fit the additive category (a skill that performs one stable job once well) should not have this lens forced on them. The malleability includes the freedom to *not apply* the pattern when the skill is complete.
 
 ## Source
 
-Surfaced as a workspace principle on 2026-05-24 during the os-writing audit. The user noticed that os-writing (and several other os-* skills) would benefit from being greedy about extension when meeting requests outside their current capability list. Promoted from the inline os-writing section and the inline audit-lens Lens 6 to this shared reference because the lesson applies to every additive skill the workspace ships, every additive skill `os-skillify` builds, and every additive skill `os-tune` extends or refines. Single source of truth keeps the skill bodies, the audit, and the meta-skills aligned.
+Surfaced on 2026-05-24 during an audit of a writing skill. The operator noticed that it, and several siblings, would benefit from being greedy about extension when meeting requests outside their current capability list. Promoted to a shared reference because the lesson applies to every additive skill `os-skillify` builds, extends, or refines. One source of truth keeps the skill bodies, the audit, and the authoring skill aligned.

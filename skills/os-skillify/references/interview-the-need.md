@@ -13,7 +13,7 @@ The two scopes share pacing, framing, and draft-when-stuck discipline. The quest
 
 ### One question per turn
 
-Hard rule. No multi-part questions. The agent may respond with a brief acknowledgment (*"got it,"* *"makes sense"*) before asking the next question. This is the AGENTS.md *Pace me* principle applied at micro-scale.
+Hard rule. No multi-part questions. The agent may respond with a brief acknowledgment (*"got it,"* *"makes sense"*) before asking the next question. A person answers one question well and a list of questions badly.
 
 Two-or-three closely related questions can occasionally cluster (e.g., *"What's the input? What does the output look like?"*) when the answers would naturally come together. Default to one.
 
@@ -47,7 +47,7 @@ Read what the user already provided first. If they've already said *"output shou
 
 If the user's answers are short or noncommittal, or if the conversation gets recursive (*"what kind of output?"* / *"I'm not sure"*), stop asking and surface a draft instead. Draft from best-guess input + output + transformation (or best-guess brief shape), label the assumptions, let the user redirect:
 
-> *"Here's a draft based on my best guess — assumes input is X, output is Y, transformation is Z. Adjust any of these and I'll re-design."*
+> *"Here's a draft based on my best guess, assumes input is X, output is Y, transformation is Z. Adjust any of these and I'll re-design."*
 
 A draft to react to is often easier than questions to answer in the abstract.
 
@@ -81,20 +81,20 @@ Run the interview when the statement is missing one or more of the three pieces.
 
 Questions that surface the input:
 
-- *"What do you typically have at hand when you'd want to use this — notes, a transcript, a blank page, an existing draft?"*
+- *"What do you typically have at hand when you'd want to use this, notes, a transcript, a blank page, an existing draft?"*
 - *"What's the raw material this tool would operate on?"*
 - *"Show me the kind of thing you'd paste in when running this."*
 
 Questions that surface the output:
 
-- *"What does the output look like when it's right — a list, a paragraph, a structured document, a one-line answer?"*
+- *"What does the output look like when it's right, a list, a paragraph, a structured document, a one-line answer?"*
 - *"After running this tool, what do you have that you didn't have before?"*
 - *"If the output were perfect, what would you do with it next?"*
 
 Questions that surface the transformation:
 
-- *"Walk me through one specific time you wanted this — what were you trying to do?"*
-- *"What's the move the tool makes — is it extracting something, generating something new, restructuring something, scoring something, or something else?"*
+- *"Walk me through one specific time you wanted this, what were you trying to do?"*
+- *"What's the move the tool makes, is it extracting something, generating something new, restructuring something, scoring something, or something else?"*
 - *"What would you do manually if the tool didn't exist?"*
 
 Questions that calibrate scope (when not the missing piece, but useful sometimes):
@@ -110,7 +110,7 @@ Audience matters for tone and persona, but doesn't block design-readiness. Save 
 
 After 2-4 questions, the mode should reach a point where input + output + transformation are clear enough to design. At that point the mode briefly summarizes what it heard and starts designing:
 
-> *"OK — sounds like you want a tool that takes Friday weekly notes (input) and produces a short Saturday-morning recap email (output) by extracting the wins and surfacing one thing worth thinking about over the weekend (transformation). I'll design a microtool for that — single-mode skill or copy-pasteable prompt?"*
+> *"OK, sounds like you want a tool that takes Friday weekly notes (input) and produces a short Saturday-morning recap email (output) by extracting the wins and surfacing one thing worth thinking about over the weekend (transformation). I'll design a microtool for that, single-mode skill or copy-pasteable prompt?"*
 
 The summary serves as a confirmation step and the mode-or-prompt question moves to design.
 
@@ -128,13 +128,13 @@ Forces concreteness. If the answer is more than one sentence, the skill probably
 
 **2. Concrete examples (in and out of scope)**
 
-> *"Give me one concrete example of a request this skill should handle. And one example of a request it should NOT handle — something adjacent that could be confused for it."*
+> *"Give me one concrete example of a request this skill should handle. And one example of a request it should NOT handle, something adjacent that could be confused for it."*
 
 Surfaces description discipline and the lane boundary. The *should NOT* example is the source of negative triggers in the eventual frontmatter description.
 
 **3. Good vs bad output**
 
-> *"What does good output look like? What does bad output look like — specifically, what would the model produce by default that you want to prevent?"*
+> *"What does good output look like? What does bad output look like, specifically, what would the model produce by default that you want to prevent?"*
 
 Forces failure-mode awareness. For creative skills, surfaces the anti-collapse target. For technical, surfaces the edge cases / wrong outputs to guard against.
 
@@ -156,7 +156,7 @@ Ask these *in addition to* the universal questions when type is creative.
 
 **Anti-collapse mechanism**
 
-> *"What's this skill's anti-pattern-collapse mechanism, if any? How does it prevent the model from defaulting to genre-mean output — wildcards, destabilizers, deliberate randomness, prose-form distinctions?"*
+> *"What's this skill's anti-pattern-collapse mechanism, if any? How does it prevent the model from defaulting to genre-mean output, wildcards, destabilizers, deliberate randomness, prose-form distinctions?"*
 
 Names the active counter-pressure. If the answer is *"nothing yet,"* that's a craft conversation to have. The skill probably needs one.
 
@@ -168,7 +168,7 @@ Surfaces persona discipline. Even when there's no formal pen name, there's often
 
 **Craft discipline**
 
-> *"What's the craft discipline this skill enforces — one-mutator-per-artifact, plan / apply separation, another rule that keeps quality from getting diluted?"*
+> *"What's the craft discipline this skill enforces, one-mutator-per-artifact, plan / apply separation, another rule that keeps quality from getting diluted?"*
 
 Many creative skills have a single discipline that, if violated, the skill fails. Naming it surfaces it.
 
@@ -180,7 +180,7 @@ Distinguishes variety-as-feature from inconsistency-as-bug.
 
 **Per-output judgment surface**
 
-> *"Does this skill make per-output judgments — picking a tone, choosing among options, deciding how much to lock vs leave open? If so, name 2-3 of those judgment points."*
+> *"Does this skill make per-output judgments, picking a tone, choosing among options, deciding how much to lock vs leave open? If so, name 2-3 of those judgment points."*
 
 Surfaces the decision points that matter most so they get explicit treatment in the `SKILL.md`.
 
@@ -196,7 +196,7 @@ The skill's contract. Often best stated as *"after this skill runs, [X] is true.
 
 **Test fixtures / example inputs**
 
-> *"What's the test case — real or hypothetical — that would prove this skill works? Can you give a concrete input + expected output?"*
+> *"What's the test case, real or hypothetical, that would prove this skill works? Can you give a concrete input + expected output?"*
 
 Surfaces verification shape. Often reveals the skill's actual shape better than abstract description.
 
@@ -208,13 +208,13 @@ Maps to the lane-discipline principle. Often surfaces explicit *"do not write to
 
 **Failure modes that break production**
 
-> *"What's the failure mode that would break a real use of this skill — wrong output silently passing validation, partial state on error, race condition, missed edge case?"*
+> *"What's the failure mode that would break a real use of this skill, wrong output silently passing validation, partial state on error, race condition, missed edge case?"*
 
 Surfaces the catastrophic failure to defend against.
 
 **Edge cases**
 
-> *"What edge cases does this skill need to handle — empty input, null, race, retry, timeout, partial failure, data-shape drift?"*
+> *"What edge cases does this skill need to handle, empty input, null, race, retry, timeout, partial failure, data-shape drift?"*
 
 Forces explicit edge-case enumeration.
 
@@ -250,9 +250,9 @@ Then ask creative or technical follow-ups per section as warranted.
 
 ## Source provenance
 
-The one-question-at-a-time pacing and draft-when-stuck pattern come from `os-content-interview` (formerly a mode of os-content-discovery) (which itself adapted from legacy *I interview you to find content ideas* and *Content-Finder Interview Bot 2.0* prompts).
+The one-question-at-a-time pacing and draft-when-stuck pattern come from a content-ideas interview prompt the operator ran for years before it became a skill.
 
-The three-piece (input / output / transformation) framing of Scope A is preserved from the legacy *Inputs-to-Outputs Helper* prompt. That prompt's central thinking framework was that any tool is a transformation function and the user usually has the input but hasn't named the output. The full thinking framework lives at `os-knowledge/inputs-to-outputs-thinking.md`.
+The three-piece (input / output / transformation) framing of Scope A is preserved from a legacy *Inputs-to-Outputs Helper* prompt. That prompt's central idea was that any tool is a transformation function and the user usually has the input but hasn't named the output.
 
 The five universal questions of Scope B and the type-lens-aware follow-ups are new in v2, emerged from real-world experience drafting the Autowriter Fiction stack and observing that brief quality consistently bounded what either single-lane or dual-lane drafts could produce.
 

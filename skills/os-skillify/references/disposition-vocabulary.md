@@ -65,7 +65,7 @@ Used in `from-prompt` mode when:
 - The script / MCP isn't ported yet, so the orchestration role can't ship.
 - BUT the source contains valuable rules (user-attribution rules, noise filters, war-story-derived patterns, output-format contracts) that should not vanish.
 
-The salvage step extracts the transferable rules into shared references in the cluster being built (e.g., `dev-investigate/references/user-attribution-rule.md`). The orchestration role waits for a separate run when the dependency is available.
+The salvage step extracts the transferable rules into shared references in the cluster being built (a user-attribution rule lifted out of a deferred wrapper and into the investigation skill's references, say). The orchestration role waits for a separate run when the dependency is available.
 
 The decision log records:
 

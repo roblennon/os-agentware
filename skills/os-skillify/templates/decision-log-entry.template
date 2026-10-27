@@ -9,10 +9,10 @@
 ```markdown
 # Decision: <source-prompt-filename>
 
-**Source:** `/source/old-prompts/<source-filename>.md`
+**Source:** `<wherever the project keeps its source prompts>/<source-filename>.md`
 **Date converted:** <YYYY-MM-DD>
 **Disposition:** MERGED, absorbed into the `<skill-name>` category skill as `modes/<mode>`
-**Destination:** `/ship/skills/<skill-name>/modes/<mode>.md` + related refs/templates
+**Destination:** `skills/<skill-name>/modes/<mode>.md` + related refs/templates
 
 ## Summary
 
@@ -24,15 +24,15 @@ See `<workspace>/decision-log/<skill-name> (category skill).md` for the complete
 
 ## Provenance
 
-Original prompt preserved at `/source/old-prompts/<source-filename>.md` (untouched).
+Original prompt preserved at its source path (untouched).
 ```
 
 ## Full entry template (standalone skill or consolidated category-skill entry)
 
-**Source(s):** `/source/old-prompts/<source-filename>.md` (list all if category skill)
+**Source(s):** `<source path>/<source-filename>.md` (list all if category skill)
 **Date converted:** <YYYY-MM-DD>
 **Disposition:** <SHIP NOW | ADAPT | MERGE | ARCHIVE | BONUS ONLY | BACKEND ONLY>
-**Destination:** `/ship/skills/<skill-name>/` (and specific sub-paths if category skill)
+**Destination:** `skills/<skill-name>/` (and specific sub-paths if category skill)
 
 ## Summary
 
@@ -57,7 +57,7 @@ Original prompt preserved at `/source/old-prompts/<source-filename>.md` (untouch
 
 - **<Move>**: <rationale>. [stated in source | elicited]
 - **<Move>**: <rationale>. [stated in source | elicited]
-- **<Move>** — TBD: <open question for a future pass>. [preserved explicitly as unresolved rather than silently omitted]
+- **<Move>**, TBD: <open question for a future pass>. [preserved explicitly as unresolved rather than silently omitted]
 
 ## Dropped
 
@@ -90,7 +90,7 @@ Original prompt preserved at `/source/old-prompts/<source-filename>.md` (untouch
 
 ## Provenance
 
-Original prompt(s) preserved at `/source/old-prompts/` (untouched).
-Classification artifact: `/source/extracted-skills/<skill-or-source>-classification.md`
+Original prompt(s) preserved at their source paths (untouched).
+Classification artifact: `<workspace>/<skill-or-source>-classification.md`
 Conversion performed by: skillify v<version>
 <For category skills, also reference the verification batch file if one was produced.>
