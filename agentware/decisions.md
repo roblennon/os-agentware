@@ -2,6 +2,10 @@
 
 Newest first. One entry per decision with its why. Entries whose consequences have landed in the files get trimmed to one line or moved to `archive/decisions-<year>.md` at checkpoints, so this file only carries what still shapes the work.
 
+## 2026-10-27 — License: Apache 2.0 plus the Commons Clause
+
+Rob: "i want people to use my agentware skill to do commercial work. i just don't want them to resell the agentware github itself." MIT would have allowed resale. A non-commercial license (PolyForm NC, CC BY-NC) would have blocked a consultant using the skills for client work, which Rob wants to allow. Apache 2.0 with the Commons Clause rider permits commercial use and forbids selling the software or a product whose value is substantially the software. The MIT draft is replaced.
+
 ## 2026-10-27 — State files are trimmed, not append-only
 
 Rob: "the decision log may be getting too much prominence here. For things that always get added to and never get trimmed or archived (this includes state.md) there is bloat. I would rather some of these things be optional and auto-cleaned/archived so that only what is actively relevant or recently completed is forced into context." So: state.md carries what is in flight and recently completed; decisions.md is optional and gets trimmed or archived at checkpoints; the showrunner does the cleanup as part of closing a slice. The old skill's "append-only, nothing gets edited" rule is dropped.

@@ -12,3 +12,7 @@ Then the two skills:
 The companion skill `os-skillify` (which writes skills and carries the cleanup pass, nicknamed hazmat, as a mode) and `skills/_shared/references` are what the two need to write good skills and keep them sounding like a person wrote them. Nothing here reaches outside the repo.
 
 This repo keeps its own state in `agentware/`, the same way any project built with it would.
+
+## License
+
+Apache 2.0 with the Commons Clause. Use it, change it, and use it in your own paid work, including client work. What the Commons Clause takes off the table is selling the skills themselves, or a product or service whose value is substantially these skills. That makes the repo source-available rather than open source in the strict sense; the full text is in `LICENSE`.
