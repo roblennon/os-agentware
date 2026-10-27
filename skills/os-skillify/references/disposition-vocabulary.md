@@ -85,13 +85,7 @@ The source is preserved as historical record but does NOT convert. Used when:
 
 The decision log explains why it's archived. The original source remains untouched.
 
-### `BONUS ONLY`
-
-Used in product-context conversions (e.g., user-facing copy / marketing content): the source becomes promotional / supplementary content rather than a working skill. Rare in skill conversion. Documented for vocabulary completeness.
-
-### `BACKEND ONLY`
-
-Used in product-context conversions: the source becomes backend-only logic (no user-facing surface). Rare in skill conversion. Documented for vocabulary completeness.
+Two further labels, `BONUS ONLY` and `BACKEND ONLY`, exist for conversions done inside a product (the source becomes marketing copy, or becomes logic with no user-facing surface). They are rare in ordinary skill work and listed here only so a log that uses them can be read.
 
 ## `enhance` mode dispositions
 

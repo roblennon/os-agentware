@@ -1,12 +1,12 @@
 # Mode: cleanup
 
-Part of `os-skillify`. Selected after AI has written or rewritten instruction files (skills, modes, references, principles files, SOPs, a context file) and the files need to come out sounding human and staying true. Also selected on request: "run hazmat on this skill," "this skill got too AI," "my skills don't sound like me anymore," "clean up after the loop rewrote things." Ordinary prose that isn't an instruction file wants a plain humanize pass rather than this mode. Structure, redundancy, and split-or-merge questions are `enhance`.
+Part of `os-skillify`. Selected after AI has written or rewritten instruction files (skills, modes, references, principles files, SOPs, a context file) and the files need to come out sounding human and staying true. Also selected on request: "run hazmat on this skill," "this skill got too AI," "my skills don't sound like me anymore," "clean up after the loop rewrote things." Ordinary prose that isn't an instruction file wants the method in `../references/humanize.md` on its own rather than this whole mode. Structure, redundancy, and split-or-merge questions are `enhance`.
 
 ## Job
 
-AI helps write skills, and self-improvement loops rewrite them. That is the point of the loops, and it has a side effect: with each rewrite, instruction files drift toward how a model writes by default. Overly technical, writerly, unlike a person talking. The drift matters beyond taste, because how an instruction file is written leaks into what the skill produces. A skill that reads like a compliance memo makes compliance memos. Left alone, everything the system touches sounds more like AI over time.
+AI helps write skills, and self-improvement loops rewrite them. That is the point of the loops, and it has a side effect: with each rewrite, instruction files drift toward how a model writes by default. It gets more technical and more writerly, and less like a person talking. The drift matters beyond taste, because how an instruction file is written leaks into what the skill produces. A skill that reads like a compliance memo makes compliance memos. Left alone, everything the system touches sounds more like AI over time.
 
-This mode is the counterweight: a pass over instruction files after AI has been through them, so the next rewrite doesn't inherit this one's tics. Its nickname is hazmat, because the material spreads, and the files it gets into are the files that write the next files.
+This mode is the counterweight: a pass over instruction files after AI has been through them, so the next rewrite doesn't inherit this one's tics. Its nickname is hazmat, because the material spreads, and the files it gets into are the ones every later file is written through.
 
 ## When to run it
 
@@ -34,7 +34,7 @@ Skipping a reference is how this kind of work fails, so the list stays short.
 
 ## The three piles
 
-Never one giant review table. Sort every finding before acting.
+Sort every finding into a pile before acting, because one giant review table hands the operator a hundred mixed decisions at once and they stop reading at twenty. The piles are what lets each kind of finding get the right kind of attention.
 
 **Taste.** Register changes that move meaning or voice, after dropping anything that fails the test *same meaning at the same length means leave it alone*. One file at a time. Present them as a three-column table (current, proposed, notes) using `../templates/review-table.md`, with verbatim text alone in the text columns. Copy the file to a `baseline/` beside the table before handing it over, and don't touch that file again until the operator says they are done. Apply their version the moment it arrives.
 
@@ -69,8 +69,6 @@ Taste tables and decide-once stay in the main thread, the only place that hands 
 ## What this mode does not do
 
 It doesn't silently rewrite taste-sensitive prose. It doesn't audit structure, redundancy, or split-and-merge, which is `enhance` doing a different job. It doesn't run punctuation scripts unattended, because mechanical passes produce fragments that letter-level checks can't see. And if a run only finds punctuation, it has probably looked at the wrong things: the valuable finds are contradictions between siblings, claims that quietly stopped being true, and register the operator never chose.
-
-Don't dump a hundred findings on the operator. Pace them.
 
 ## Output
 

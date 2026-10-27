@@ -50,7 +50,7 @@ Per modified skill, a decision-log entry per `../templates/decision-log-entry.te
 
 ## Status updates
 
-Four natural checkpoints: after detection (findings and proposed dispositions, before any change), after apply (what changed, what was deferred), after verify, and at the end (summary and recommended next steps). Pace the findings. A hundred at once helps nobody.
+Four natural checkpoints: after detection (findings and proposed dispositions, before any change), after apply (what changed, what was deferred), after verify, and at the end (summary and recommended next steps). Pace the findings.
 
 ## Principles
 

@@ -1,6 +1,6 @@
 # Mode: extend
 
-Part of `os-skillify`. Selected when a request fits as another mode of a skill that already exists, either because the parent skill's existing-skills check found the match and the user agreed, or because the user named the target outright: add a mode to the email skill for X, extend the tracker to handle Y. Not selected when the new behavior contradicts the host skill's purpose or is large enough to be its own skill (then a generative mode), or when the user said "new skill" and meant it.
+Part of `os-skillify`. Selected when a request fits as another mode of a skill that already exists, either because the parent skill's existing-skills check found the match and the user agreed, or because the user named the target outright: add a mode to the email skill for X, extend the showrunner to handle Y. Not selected when the new behavior contradicts the host skill's purpose or is large enough to be its own skill (then a generative mode), or when the user said "new skill" and meant it.
 
 ## Job
 

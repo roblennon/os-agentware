@@ -14,7 +14,7 @@ A single operation often involves both. `extend` creates a mode file and modifie
 
 ## Show before write
 
-Every write is shown before it lands, and the write waits for a clear yes. This is the one piece of the protocol that is a genuine requirement rather than advice, and the reason is simple: a skill file is the thing that writes the next files, and a wrong edit that lands silently propagates before anyone sees it.
+Every write is shown before it lands, and the write waits for a clear yes. This is the one piece of the protocol that is a genuine requirement rather than advice, and the reason is simple: a skill file shapes every file written through it afterward, and a wrong edit that lands silently propagates before anyone sees it.
 
 **For Modify:** show a diff against the current file, with enough surrounding context that the user can judge intent. Show the whole file only when the diff would be harder to read than the result.
 
@@ -22,7 +22,7 @@ Every write is shown before it lands, and the write waits for a clear yes. This 
 
 **For multi-file operations** (a new mode plus its parent's index update, or a generated skill with several modes and references): show the whole batch and confirm once for the batch. If one file in the batch fails its sanity check after writing, revert the batch where the file system permits, or surface the failure plainly so the user can fix and rerun.
 
-The user's options after seeing a proposal: accept, accept with edits, reject, or set it aside for later. Trivial changes (a typo, a line added to a list) can be batched into one confirmation when the user has said that is fine for them. Moderate and large changes ask per item.
+The user's options after seeing a proposal: accept, accept with edits, reject, or set it aside for later. The yes can be given at the level of a class as well as a file: once the user has approved a kind of change (a taste table in a cleanup pass, a standing OK for typos and broken paths), that class may land across other files with a report after. Cleanup's piles are the worked example of this. Moderate and large changes that are not covered by an approved class ask per item.
 
 ## Customization respect
 

@@ -11,7 +11,7 @@ A skill name is something a person says out loud and types into a prompt. Names 
 - **Conversational over technical:** *"good morning"* over *"daily-briefing-orchestrator,"* *"skillify"* over *"skill-conversion-pipeline,"* *"tracker"* over *"task-management-system"*
 - **Evocative over functional:** *"loop"* (suggests cyclic improvement) over *"skill-evolution-engine"*
 - **Verbs and short noun phrases people would type:** "good morning," "what's next," "make a skill"
-- **Words that sound like something a friend would mention:** *"I just used Daily Assist to plan my day"* reads natural; *"I just invoked the daily-briefing-orchestrator"* doesn't
+- **Words that sound like something a friend would mention:** *"I just had the showrunner plan my day"* reads natural; *"I just invoked the daily-briefing-orchestrator"* doesn't
 
 **Avoid:**
 
@@ -27,7 +27,7 @@ This applies to skills, modes, configuration keys, file names users will see, an
 
 ## Skill names
 
-**Good:** `os-prose-editing`, `os-voiceprint`, `os-skillify`, `dev-investigate`
+**Good:** `os-skillify`, `os-showrunner`, `os-agentware`
 
 **Bad:** `content_editor_bot`, `editor-v2-final`, `MyEditingPrompt`, `edit` (too generic)
 
@@ -43,8 +43,8 @@ Rules:
 
 ## Category skills vs. job skills
 
-- **Category skill:** named for the category. `os-prose-editing`, `os-planning`.
-- **Job skill:** named for the specific job. `os-voiceprint`, `os-welcome-sequence`.
+- **Category skill:** named for the category. `os-skillify` (many modes, one subject).
+- **Job skill:** named for the specific job. `os-showrunner` (one role, done well).
 
 Use a category skill name when the skill contains multiple modes. Use a job skill name when the skill does one specific job.
 

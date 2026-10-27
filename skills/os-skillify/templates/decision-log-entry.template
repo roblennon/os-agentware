@@ -20,7 +20,7 @@
 
 ## Full decision record
 
-See `<workspace>/decision-log/<skill-name> (category skill).md` for the complete conversion record.
+See the category skill's consolidated entry, wherever the project keeps its decision logs, for the complete conversion record.
 
 ## Provenance
 
@@ -31,7 +31,7 @@ Original prompt preserved at its source path (untouched).
 
 **Source(s):** `<source path>/<source-filename>.md` (list all if category skill)
 **Date converted:** <YYYY-MM-DD>
-**Disposition:** <SHIP NOW | ADAPT | MERGE | ARCHIVE | BONUS ONLY | BACKEND ONLY>
+**Disposition:** <one label from `../references/disposition-vocabulary.md`>
 **Destination:** `skills/<skill-name>/` (and specific sub-paths if category skill)
 
 ## Summary
@@ -78,7 +78,7 @@ Original prompt preserved at its source path (untouched).
 
 ## Verification
 
-<How the converted skill was tested. For multi-skill batches, cross-reference the batch file at `<workspace>/decision-log/_VERIFICATION-BATCH-<date>.md` rather than duplicating the full test plan here.>
+<How the converted skill was tested. For multi-skill batches, cross-reference the batch's verification file, wherever the project keeps decision logs, rather than duplicating the full test plan here.>
 
 - **Craft preserved:** <yes/no + notes, or "see batch verification file">
 - **Rationale holds under variation:** <yes/no + notes>
@@ -91,6 +91,6 @@ Original prompt preserved at its source path (untouched).
 ## Provenance
 
 Original prompt(s) preserved at their source paths (untouched).
-Classification artifact: `<workspace>/<skill-or-source>-classification.md`
+Classification artifact: <path, if one was saved>
 Conversion performed by: skillify v<version>
 <For category skills, also reference the verification batch file if one was produced.>

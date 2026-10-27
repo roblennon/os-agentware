@@ -24,7 +24,7 @@ Catalog the structural elements in each (frontmatter, sections, examples, tables
 
 ### 3. Resolve substantive disagreements
 
-When the drafts disagree on substance rather than framing, pick deliberately. Check against the brief's hard constraints first; usually one draft is brief-consistent and the other isn't. If both are, pick on craft grounds and write the reasoning into the rationale. If you can't pick with confidence, mark the point TBD in the merged draft and hand it to the user. An average of two positions is a third position nobody chose, so don't split the difference.
+When the drafts disagree on substance rather than framing, pick deliberately. Check against the brief's hard constraints first; usually one draft is brief-consistent and the other isn't. If both are, pick on craft grounds and write the reasoning into the rationale. If you can't pick with confidence, mark the point TBD in the merged draft and hand it to the user. Splitting the difference produces a position nobody chose.
 
 ### 4. Compose
 

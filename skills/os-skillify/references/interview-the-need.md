@@ -254,6 +254,6 @@ The one-question-at-a-time pacing and draft-when-stuck pattern come from a conte
 
 The three-piece (input / output / transformation) framing of Scope A is preserved from a legacy *Inputs-to-Outputs Helper* prompt. That prompt's central idea was that any tool is a transformation function and the user usually has the input but hasn't named the output.
 
-The five universal questions of Scope B and the type-lens-aware follow-ups are new in v2, emerged from real-world experience drafting the Autowriter Fiction stack and observing that brief quality consistently bounded what either single-lane or dual-lane drafts could produce.
+The five universal questions of Scope B and the type-lens-aware follow-ups are new in v2, emerged from drafting a large multi-agent fiction system and observing that brief quality consistently bounded what either single-lane or dual-lane drafts could produce.
 
 What's new in `os-skillify` overall: the design-readiness threshold ending the microtool interview when design begins. The full-brief scope as a top-level interview mode rather than only a sub-pattern; the type-lens parameter shaping which question pool fires.

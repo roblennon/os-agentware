@@ -10,7 +10,7 @@ Build a skill brief conversationally. The brief bounds everything downstream: it
 
 The parent skill's read-the-room step has run, and it matters more here than elsewhere: the project's conventions, existing skills, and voice samples decide which questions are worth asking and which are already answered. This mode doesn't write skill files. The brief itself, when persisted, follows `../../_shared/references/skill-update-protocol.md`.
 
-Quoted questions in this mode and in the question bank are samples of the kind of question, not wording to reproduce.
+Quoted questions in the question bank are samples of the kind of question, not wording to reproduce.
 
 ## Phases
 

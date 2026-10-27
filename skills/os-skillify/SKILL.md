@@ -19,9 +19,9 @@ description: >-
 
 # Skillify
 
-Skills, modes, references, SOPs, and the context files a harness loads are the files that write the next files. Everything about how they are written leaks into what they produce: the register, the shape, the rules, the examples. This skill is the one place for making those files and keeping them good: new ones from a prompt or a body of content or a stated need, new modes on existing skills, tweaks folded in from use, audits across a library, and the cleanup pass that runs after any of that, so the next rewrite doesn't inherit this one's tics.
+Skills, modes, references, SOPs, and the context files a harness loads shape everything written through them afterward. Everything about how they are written leaks into what they produce: the register, the shape, the rules, the examples. This skill is the one place for making those files and keeping them good: new ones from a prompt or a body of content or a stated need, new modes on existing skills, tweaks folded in from use, audits across a library, and the cleanup pass that runs after any of that, so the next rewrite doesn't inherit this one's tics.
 
-What it adds over a stock skill builder is two things. It reads the project before it writes, so the result fits what is already there instead of starting from a blank slate. And it writes the house way: `../_shared/references/skill-prompting-principles.md` is the current list of the ways a generated skill goes wrong and the counter-move for each. Load that file before producing any file here. Not from memory; it grows.
+What it adds over a stock skill builder is two things. It reads the project before it writes, so the result fits what is already there instead of starting from a blank slate. And it writes the house way: `../_shared/references/skill-prompting-principles.md` is the current list of the ways a generated skill goes wrong and the counter-move for each. Load that file before producing any file here rather than working from memory, because it grows.
 
 ## Before writing anything
 
@@ -53,7 +53,7 @@ Working on what exists:
 
 - `modes/extend.md`: add a mode to an existing skill. One new file, one index update, both shown together.
 - `modes/refine.md`: fold a tweak, a correction, or a changed default into an existing skill. Smallest edit that does the job.
-- `modes/enhance.md`: audit one skill, a cluster, or the library for redundancy, drift, missing structure, and skills doing two jobs. Operates on live files, so it snapshots first.
+- `modes/enhance.md`: audit one skill, a cluster, or the library for redundancy, drift, missing structure, and skills doing two jobs. Operates on live files, so it takes a restore point first.
 - `modes/dual-lane.md`: draft a foundational skill twice, from one brief, with two builders of different lineage, then merge. Worth the cost only for skills that carry real weight.
 - `modes/consolidate.md`: merge two drafts into one with a written rationale. Runs on its own or as the end of dual-lane.
 - `modes/cleanup.md`: the pass after AI has written or rewritten instruction files. Correctness, craft, and register, in three piles the operator can rule on.
@@ -66,13 +66,13 @@ A setting on top of any mode: `creative`, `technical`, or `hybrid`. Creative ski
 
 ## How this skill works
 
-**Show before you write.** Every file write, new or changed, is shown first and waits for a yes. This one is a real requirement, not advice: these are the files that write the next files, and a wrong edit that lands silently propagates before anyone sees it. The discipline, including the sanity checks that run after each write, is `../_shared/references/skill-update-protocol.md`.
+**Show before you write.** A file write, new or changed, is shown first and waits for a yes, and the yes can cover a class of change the user has already ruled on. This one is a real requirement, not advice: a wrong edit to a skill lands in everything that skill produces before anyone sees it. The discipline, including the sanity checks that run after each write, is `../_shared/references/skill-update-protocol.md`.
 
 **Nothing gets dropped without saying so.** Every conversion produces a decision-log entry. Every consolidation says what was kept from each draft and what was discarded. Every audit finding gets logged, including the ones where the answer was to do nothing, so the next audit doesn't re-surface them cold. Where the log lives is the project's call; the template is `templates/decision-log-entry.template`.
 
 **Preserve craft and phrasing.** When the source's wording is effective, reuse it verbatim. If the source has named frameworks, use their names and their structure. If it has three pillars, the skill has three pillars, not five for symmetry. Working out what the source implies is fine. Adding what it doesn't have is not, unless invention is the job.
 
-**When two drafts disagree on substance, pick or punt.** Pick deliberately with the reasoning written down, or mark it TBD and hand it to the user. An average of two positions is a third position nobody chose.
+**When two drafts disagree on substance, pick or punt.** Pick deliberately with the reasoning written down, or mark it TBD and hand it to the user. Splitting the difference produces a position nobody chose.
 
 **Descriptions route.** A produced skill's frontmatter description is a routing prompt: the job, the distinctions that affect selection, the modes, the trigger phrases, and a "Do NOT trigger for X" when confusion with a neighbor is real. The rules that decide whether a skill installs at all are `../_shared/references/frontmatter-format.md`, and they are the one place in this skill where the hard limits are hard.
 
@@ -85,6 +85,8 @@ A setting on top of any mode: `creative`, `technical`, or `hybrid`. Creative ski
 **Skills ship empty.** No user-specific names, accounts, or filter lists inline. Those belong in the project's own files, loaded at run time.
 
 **Outputs save where the project already keeps such things.** No per-skill save scheme.
+
+**Pace findings.** Audits and cleanup passes turn up a lot. Bring the operator a few at a time, ranked, with the rest held back until they ask.
 
 **Count the listing cost.** Every skill costs something in every session, because its description sits in the harness's standing context, and most harnesses cap that listing and degrade it quietly. After generating, offer the check in `../_shared/references/context-capacity.md` once. What to tier is the user's call.
 

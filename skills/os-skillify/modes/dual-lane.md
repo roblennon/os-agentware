@@ -48,9 +48,9 @@ A decision-log entry for the run as a whole: what the brief asked for, what each
 
 Both lanes are first-class. Don't pre-rank. The instructions make them optimize for different things so the merge has real choices, not so one is primary.
 
-Don't run two lanes of this skill. Same lineage, same instincts, no second opinion.
+Two lanes of this same skill share one lineage and one set of instincts, so the second draft is not a second opinion. Use a builder of a different lineage for the other lane.
 
-The merge is its own mode. This one briefs, spawns, waits.
+The merge is its own mode (`consolidate.md`). This one writes the briefs, spawns the lanes, and waits for them.
 
 ## Failure modes
 

@@ -56,7 +56,7 @@ Create the files at the project's skills location, following the scaffolds in `.
 - `modes/*.md`: for category skills with multiple modes.
 - `templates/*.md`: strict output shapes, loaded only when the output has to match exactly.
 - `examples/*.md`: per `../../_shared/references/example-rules.md`. Five to ten strong examples or none. A single dated example mis-trains more than no example does. Legacy examples kept with reservations carry a `legacy-` prefix and a note on what should replace them.
-- `agents/*.md`: one per companion agent, if phase 3 called for them, each with frontmatter (`name`, `description` with example blocks) and a system prompt in the body.
+- Companion agent files, if phase 3 called for them, in whatever shape the harness expects (Claude Code, for one, reads `agents/*.md` with frontmatter and a system prompt in the body).
 
 Naming follows `../../_shared/references/naming-conventions.md`. Frontmatter follows `../../_shared/references/frontmatter-format.md`: a `description: >-` block scalar, under 1024 characters, `name` equal to the folder name. Those rules are hard because a skill that breaks them fails to install.
 
@@ -69,7 +69,7 @@ Run the converted skill against a representative input, real content the origina
 - **Example quality:** do the included examples still read as strong exemplars, or as dated AI output? Replace, drop, or flag.
 - **No silent loss:** is there anything in the source that appears nowhere in the conversion or the decision log?
 
-Write a verification note (the input, the output, the comparison) for the decision log. A conversion isn't finished until the four checks have been run and recorded. Failure shapes worth watching for: a dropped craft move that was doing work (converted output is blander), inputs the skill can't route between modes, a mode with no examples producing uneven output, and a variation request that breaks the skill (the inline why isn't teaching the right adaptation).
+Write a verification note (the input, the output, the comparison) for the decision log. Skipping a check is how a conversion ships blander than its source without anyone noticing, so run and record the four. Failure shapes worth watching for: a dropped craft move that was doing work (converted output is blander), inputs the skill can't route between modes, a mode with no examples producing uneven output, and a variation request that breaks the skill (the inline why isn't teaching the right adaptation).
 
 For a batch of related skills converted together, one batch verification file covering all of them is fine, with per-skill test plans and cross-skill notes.
 
@@ -79,11 +79,11 @@ Write a decision-log entry wherever the project keeps such things, following `..
 
 One source becoming one skill gets one entry named after the source. Several sources becoming one category skill get one consolidated entry named after the skill plus a thin stub per source pointing at it, so every source is still findable by name.
 
-The log is the lossless guarantee. Every source produces an entry or a stub before the conversion is called done.
+The log is what makes the conversion lossless: each source gets an entry or a stub, so nothing dropped stays dropped silently.
 
 ## Principles
 
-Every prompt runs all six phases. Prompts that look like simple ports often hide the most interesting craft, and the phases are fast once practiced.
+Run all six phases even on a prompt that looks like a simple port. Those are the ones that most often hide the interesting craft, and the phases are fast once practiced.
 
 Preserve wording on craft moves. When a chunk is a craft move, its exact phrasing is part of what makes it work.
 
