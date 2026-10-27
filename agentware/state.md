@@ -37,10 +37,11 @@ Nothing outside this repo changes until the publish slice. Delete the folder and
 - Slice 3 drafted: `os-showrunner` SKILL.md, references project-state/delegation/unattended, briefs surveyor/cold-reader. Rob read os-agentware and said it reads right.
 - Slice 4 done: os-skillify ported with hazmat as its cleanup mode, eleven shared references, extend and refine folded in from the tuning skill. Grep for workspace references is clean; pointers resolve.
 - Fresh eyes on all three skills: done and folded (three Fable 5.1 cold reads, findings in git history).
-- Next checkpoint: Rob reads the full repo. Then publish (GitHub repo under roblennon, MIT license draft in place, both need his yes).
+- Pushed to roblennon/os-agentware as a private repo (2026-10-27). Personal OS now links `skills/os-agentware` and `skills/os-showrunner` into this repo; the harness installs read through those links.
+- Next checkpoint: Rob reads the full repo and sends corrections. Then flip the repo to public.
 
 ## Deferred
 
-- Personal OS cutover: replace `~/personal-os/skills/os-agentware` with a link into this repo, and decide whether os-skillify and os-hazmat in Personal OS become links too or stay as the richer house versions. (2026-10-27, after publish)
+- Air: clone this repo at `~/gh_projects/os-agentware` so the Personal OS links resolve there too. (2026-10-27)
 - Whether `os-checkpoint` or a slimmer thread-closeout belongs in the companion set. (2026-10-27)
 - A worked example project in `examples/` so a stranger sees the layout in use. (2026-10-27)

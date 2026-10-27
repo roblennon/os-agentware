@@ -2,6 +2,10 @@
 
 Newest first. One entry per decision with its why. Entries whose consequences have landed in the files get trimmed to one line or moved to `archive/decisions-<year>.md` at checkpoints, so this file only carries what still shapes the work.
 
+## 2026-10-27 — Personal OS links here; house skillify and hazmat stay
+
+Personal OS replaced its `skills/os-agentware` folder with a relative symlink into this repo and added `os-showrunner` the same way, so corrections land once. House `os-skillify` and `os-hazmat` stay as the richer Personal OS versions; the portable skillify here is for everyone else. The old skill's two deep doctrine docs were archived into Personal OS's `os-knowledge/` rather than deleted. Why: Rob's ruling, and the doctrine's own one-source-of-truth principle.
+
 ## 2026-10-27 — License: Apache 2.0 plus the Commons Clause
 
 Rob: "i want people to use my agentware skill to do commercial work. i just don't want them to resell the agentware github itself." MIT would have allowed resale. A non-commercial license (PolyForm NC, CC BY-NC) would have blocked a consultant using the skills for client work, which Rob wants to allow. Apache 2.0 with the Commons Clause rider permits commercial use and forbids selling the software or a product whose value is substantially the software. The MIT draft is replaced.
