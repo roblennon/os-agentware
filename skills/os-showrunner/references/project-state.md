@@ -19,7 +19,7 @@ The state lives inside the project, not in the harness or the showrunner's skill
 
 The one file a fresh session reads first. It holds what the system is (a short paragraph), the ask in the operator's words, what done looks like, the budget and the undo story, what is in flight right now (the current slice, the next checkpoint and what it decides), and what is parked, one line each with enough to resurrect it. Dated at the top, so a stale date on an active project is itself a finding.
 
-It stays about a screen long. The whole job is fast orientation, and a door that takes ten screens to open is a corridor. When it grows, that is the signal to trim.
+It stays about a screen long. The whole job is fast orientation. When it grows, that is the signal to trim.
 
 ## map.md, the shape
 
@@ -35,13 +35,13 @@ It is not append-only. Once a decision's consequences have landed in the files, 
 
 Closing a slice is the trim moment. Finished work leaves the in-flight section, becoming one line under recently completed or a line in the archive. Settled decisions compress. Parked ideas get a look: promote one to a slice, keep waiting, or drop it with a line saying why. Archive files live in `archive/` by year or by slice, and nothing in them is forced into a session's context, but a pointer from the trimmed entry means anyone who needs the history can get it in one step.
 
-The test for any trim is one question: could a fresh session reach the original in one step? Drop the page, keep the reference.
+The test for any trim is one question: could a fresh session reach the original in one step?
 
 ## Writing it
 
 State changes happen at the moment of the decision, during the work. During a long dispatch, rewrite the top of the door file so returning attention re-anchors on the goal.
 
-The showrunner writes the project's state. Workers report, and the showrunner folds reports in. A lieutenant owns the state of its own subtree and nothing above it. When several agents genuinely need to write, split the file so each owns one, and say so in the map.
+Usually the showrunner writes the project's state, because it is the one holding the whole picture, and workers' reports get folded in by it. A lieutenant keeps the state of its own subtree. When lanes need to write state directly, the shared-tree rules in `delegation.md` are enough; say in the map who writes what if it is not obvious.
 
 ## The cold-read check (optional)
 

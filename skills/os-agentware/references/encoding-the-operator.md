@@ -1,6 +1,6 @@
 # Encoding the operator
 
-The hardest part of building a system is not organizing files. It is articulating how the operator actually works, which they have never had to do, because nobody explains themselves to themselves in their inner monologue. The AI is a good interrogator for this: no boredom, no judgment, and it is explaining that is the learnable skill.
+The hardest part of building a system is not organizing files. It is articulating how the operator actually works, which they have never had to do, because nobody explains themselves to themselves in their inner monologue. The AI is a good interrogator for this. It does not get bored and it does not judge, and explaining yourself turns out to be a skill you can learn.
 
 ## Three ways to get it out
 

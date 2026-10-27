@@ -30,7 +30,7 @@ Agentware is AI plus skills plus agents plus code plus process. Any of these can
 - **Scripts, tools, GUIs.** Code is a first-class part of the system, not an exception to it. When a step is deterministic, repeatable, or needs to be fast and exact, write code for it. Build it so both the agent and the human can use it, which usually means a command line first and a small GUI when a human needs to see something. Wrap it in the skill or SOP that knows how to use it well.
 - **The knowledgebase.** Research, findings, decisions, sources. It grows without limit as long as it stays useful and searchable, and the agents actually search it when deciding things.
 - **State.** What is in flight, what was decided, what is parked. Kept short, kept true, trimmed as things settle. The showrunner's default layout is in `../os-showrunner/references/project-state.md`; projects with their own tracker keep it.
-- **Process.** The loop that routes learnings back in: a correction becomes a principle in a skill, finished research lands in the knowledgebase, a repeated manual step becomes a script. A system without that loop is prompting with extra steps.
+- **Process.** The loop that routes learnings back in: a correction becomes a principle in a skill, finished research lands in the knowledgebase, a repeated manual step becomes a script. Without that loop the system is a pile of prompts that happens to live in folders.
 
 ## Modes
 

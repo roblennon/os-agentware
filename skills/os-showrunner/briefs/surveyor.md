@@ -25,4 +25,4 @@ Findings grouped by check, one line each: the file, the evidence, who reads that
 
 ## Constraints
 
-Change nothing. Report only to the named location. Findings, ranked, no fixes however obvious: finding and repairing are different jobs and your clean eyes are for the finding.
+Change nothing. Report only to the named location. Findings, ranked, no fixes however obvious: the showrunner decides what gets repaired, and a fix you make mid-audit is one it cannot see.

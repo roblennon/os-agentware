@@ -1,6 +1,6 @@
 # os-agentware: map
 
-The shape of the repo. One line per piece, what points at it, what it points at. Proposed on 2026-10-27; pieces marked (planned) do not exist yet.
+The shape of the repo. One line per piece, what points at it, what it points at. Pieces marked (planned) do not exist yet.
 
 ## Layout
 
@@ -11,18 +11,19 @@ os-agentware/
   agentware/                       this repo's own state: state (the door, kept short), map, decisions (trimmed; settled entries move to archive/)
   skills/
     os-agentware/                  the concept: create, improve, and audit an agentware system
-      SKILL.md                     (planned)
+      SKILL.md                     anatomy, the three modes, the principles that run through them
+      modes/                       create, improve, audit
       references/agentware.md      the doctrine, from Rob's write-up
-      references/...               (planned) rules and gates, encoding the operator, keeping a system healthy
+      references/                  rules-and-gates, encoding-the-operator
     os-showrunner/                 the runner: orient, delegate, keep state true, keep momentum
-      SKILL.md                     (planned)
-      references/project-state.md  (planned) the state/map/decisions/briefs layout, as a suggestion that flexes
-      references/delegation.md     (planned) workers, lieutenants, briefs, coordinating on shared main
-      references/unattended.md     (planned) heartbeats, one engine, stop conditions, dead-thread recovery
-      briefs/                      (planned) reusable worker briefs: surveyor, cold reader
+      SKILL.md                     arriving, working with the operator, scope, delegating, state, unattended
+      references/project-state.md  the state/map/decisions/briefs layout, as a default that flexes; trimming and archiving
+      references/delegation.md     workers, lieutenants, briefs, several agents on one tree
+      references/unattended.md     heartbeats, one engine, stop conditions, dead-thread recovery
+      briefs/                      reusable worker briefs: surveyor, cold reader
     os-skillify/                   (planned) portable skill authoring, Personal OS mandates stripped; hazmat (the cleanup pass after AI writes instruction files) is a mode of it
     _shared/references/            (planned) prompting principles, frontmatter rules, naming, skill-vs-mode-vs-reference, self-extending, work orientation, AI writing patterns, SOP completeness
-  sops/                            (planned) installing into a project, harness notes, cleanup at milestones
+  sops/                            installing into a project, cleanup at milestones
 ```
 
 ## Crew

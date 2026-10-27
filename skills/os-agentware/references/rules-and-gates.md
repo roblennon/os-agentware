@@ -4,7 +4,7 @@ How to write a rule into a system so it still works in the case you did not thin
 
 ## The rule shape
 
-A year or two ago the risk with agents was too little constraint. The models were worse at following instructions and you wanted guardrails. Today the risk has flipped. The models thrive with guardrails, and the failure is a rule so tight it blocks the work you actually asked for. The mechanism is specific: when an AI writes or optimizes its own rules, it reaches for black and white. It writes "never merge to main," and three weeks later it fights you about merging to main in a repo you are using as a versioned filing cabinet where branching makes no sense. It is not going to think to take that step. You have to.
+A year or two ago the risk with agents was too little constraint. The models were worse at following instructions and you wanted guardrails. Today the risk has flipped. The models thrive with guardrails now, they follow them well, and so the failure has moved: a rule so tight it blocks the work you actually asked for. The mechanism is specific: when an AI writes or optimizes its own rules, it reaches for black and white. It writes "never merge to main," and three weeks later it fights you about merging to main in a repo you are using as a versioned filing cabinet where branching makes no sense. It is not going to think to take that step. You have to.
 
 So a rule carries its reason and its exception:
 

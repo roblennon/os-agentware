@@ -1,0 +1,13 @@
+# Rationale: <skill-name>
+
+Why this skill is shaped the way it is. For the person maintaining it and for the next rewrite pass. Not loaded by the skill; nothing in SKILL.md points here on purpose.
+
+<!--
+Authoring note: no frontmatter, and no link to this file from SKILL.md, a mode, or a reference. Keep it in the skill folder so it ships with the skill. Any path written here has to exist in a shipped copy of the skill. `../os-skillify/references/rationale-extraction.md` says what belongs here and what stays inline. Remove this comment before shipping.
+-->
+
+<The notes, as paragraphs or as bullets, each a move or choice and the reason it was made: what it protects, what went wrong without it, what an earlier version did instead, what was dropped and why.>
+
+## <modes/mode-name.md>
+
+<Rationale that belongs to one mode or reference goes under a heading naming that file. Omit the heading when there is none.>

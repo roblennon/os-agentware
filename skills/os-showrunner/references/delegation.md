@@ -6,11 +6,11 @@ How the showrunner hands work out and gets it back: workers, lieutenants, briefs
 
 A worker is anything with a bounded job: a subagent in a clean context, a skill, a script, a tool, a one-off brief written at dispatch time. Most of what a showrunner dispatches is the last kind, and the brief does not need saving afterward. A line in the state saying the dispatch happened and what it settled is enough. When the same shape recurs, save the brief in the project's `briefs/` folder, through `os-skillify`, and list it in the map.
 
-A worker gets its brief plus the inputs the brief names, and that is its whole world. Clean eyes read harder and catch more than the main thread, which knows too much. The brief carries only what the worker cannot infer: the job in a sentence, the inputs, the procedure where it has to be exact (a search pattern, a count, a format), the report shape, and the boundaries. A worker's competence is free; restating it wastes the brief.
+A worker gets its brief plus the inputs the brief names, and that is its whole world. A reader with no history reads harder and catches more than the main thread, which knows too much. The brief carries only what the worker cannot infer: the job in a sentence, the inputs, the procedure where it has to be exact (a search pattern, a count, a format), the report shape, and the boundaries. Restating things any capable agent already knows just makes the brief longer.
 
 Reports come back as files or structured replies. Ask for where it looked, how it went about it in a line, what it concluded, and what it could not resolve. The gaps matter as much as the conclusion, because the next dispatch starts from them, and the line on method is how you notice a worker that reached the right answer the wrong way.
 
-Workers can write. The old rule that only the showrunner writes anything was architecture, and it is gone. What stays is that two writers never own the same file at the same time, and that the showrunner is the one who folds the result into the project's state.
+Workers can write files, including code and documents in the project. What keeps that sane is that two agents do not edit the same file at the same moment, which the shared-tree rules below handle, and that the showrunner is the one who folds results into the project's state.
 
 ## Lieutenants
 
@@ -26,7 +26,7 @@ One practical thing: a lieutenant that spawns background children and then goes 
 
 Some asks are too wide for one worker: a question about a whole catalog, a system-wide audit, an investigation across several subsystems. Reading it all yourself spends the one context window the project cannot replace. Dispatching one worker with the whole ask gets back a report too big to fold.
 
-Turn the ask into the questions it actually contains. Check what the project already holds before spawning anything: an earlier finding, a decision, a result from a previous slice. Reusing it costs a read; redoing it costs a window. Start with the smallest overview that could settle the easy questions and let its gaps decide what the next workers chase. Independent questions run in parallel, one per worker, scopes that do not overlap, each pointed at what already exists. Dependent ones run in sequence. As reports land, the state gets a line each with a pointer, so a later session reuses them.
+Turn the ask into the questions it actually contains. Check what the project already holds before spawning anything: an earlier finding, a decision, a result from a previous slice. Reusing it is a read, and redoing it is a whole context window. Start with the smallest overview that could settle the easy questions and let its gaps decide what the next workers chase. Independent questions run in parallel, one per worker, scopes that do not overlap, each pointed at what already exists. Dependent ones run in sequence. As reports land, the state gets a line each with a pointer, so a later session reuses them.
 
 ## Several agents on one tree
 

@@ -13,12 +13,12 @@ Fold the learning into the right place in the system, in the right form, so that
 **Decide the form.** Each learning has a home that fits it:
 
 - A judgment the operator holds, generalizable, with a reason: a principle in the relevant skill or SOP, written in the calibrated shape from `../references/rules-and-gates.md`.
-- A check that can be stated exactly (a count, a format, a reference that must resolve): a script or a lint, with the reason in its failure message. Code does not drift and does not need to be re-read.
+- A check that can be stated exactly (a count, a format, a reference that must resolve): a script or a lint, with the reason in its failure message. Code holds its shape far better than a paragraph an agent has to re-read and re-interpret.
 - A procedure done more than a couple of times: an SOP first. A skill once it has earned a registered slot by being needed often.
 - A finding, a source, a thing that was true on a date: the knowledgebase, with the source cited and the noise left out.
 - A decision the operator should not have to re-make: the decisions file, with the why, until it has landed in the files and can be trimmed to a line.
 
-Pick the lightest form that does the job. A paragraph pleading with the agent to remember something is the weakest form of all.
+Pick the lightest form that does the job, and notice that a paragraph asking the agent to please remember something is the form that fails most often.
 
 **Test the rule you are about to write.** Is it the cause or a correlation? If every good edit in a batch happened to be longer, "write longer" is a correlation wearing a cause; the real principle might be "be specific." Would the rule block work the operator asked for in a case you did not think of? If so it needs its because and its unless. Is it a gate or advice? Most lessons are advice. Write them as how we do things, not as what we refuse to do.
 

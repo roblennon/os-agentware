@@ -1,0 +1,23 @@
+# Mode: <mode-name>
+
+<!--
+Authoring note: shape this mode's body to match the shape of its output. Prose-producing modes are written in prose; structured-output modes can use lists. Describe effects, not verbatim phrasings, in any field-shape placeholders. See `../../_shared/references/skill-prompting-principles.md`. Mode-specific rationale goes in the skill's `RATIONALE.md` under a heading naming this file, not here. Only the why a rule needs stays beside the rule. Remove this comment before shipping.
+-->
+
+Part of the `<category-skill>` skill. Selected when <the situation that calls for this mode, described by the kind of input it handles or the kind of output the user is reaching for, not by surface keywords>.
+
+## Job
+
+<One sentence: what this specific mode does that distinguishes it from other modes.>
+
+## Run
+
+<Mode-specific run logic. Preserve craft moves from the source prompt verbatim. Assume the category skill's shared references have already been loaded.>
+
+## Mode-specific references
+
+<Any references used only by this mode. If all references are shared at the category level, this section is omitted.>
+
+## Output
+
+<Shape of this mode's output. If strict, point to the template. If flexible, describe characteristics.>
