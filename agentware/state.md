@@ -36,7 +36,7 @@ Nothing outside this repo changes until the publish slice. Delete the folder and
 - Slice 2 drafted: `os-agentware` SKILL.md, modes create/improve/audit, references rules-and-gates and encoding-the-operator. Rob read it and said it reads right; fresh eyes ran 2026-10-27 and its findings were folded in.
 - Slice 3 drafted: `os-showrunner` SKILL.md, references project-state/delegation/unattended, briefs surveyor/cold-reader. Rob read os-agentware and said it reads right.
 - Slice 4 done: os-skillify ported with hazmat as its cleanup mode, eleven shared references, extend and refine folded in from the tuning skill. Grep for workspace references is clean; pointers resolve.
-- Fresh eyes on the two new skills: done and folded. Fresh eyes on the rewritten skillify prose: running.
+- Fresh eyes on all three skills: done and folded (three Fable 5.1 cold reads, findings in git history).
 - Next checkpoint: Rob reads the full repo. Then publish (GitHub repo under roblennon, MIT license draft in place, both need his yes).
 
 ## Deferred
