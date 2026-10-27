@@ -1,6 +1,6 @@
 # Cleanup at milestones
 
-What to clear when a slice closes, a milestone lands, or a project pauses. Agentware runs a lot of processes and leaves a lot behind, and a machine that fills up gets slow in ways that look like the agents getting worse. Bake the list below into the project's own context file so it happens without anyone remembering.
+What to clear when a slice closes, a milestone lands, or a project pauses. Written as an SOP: read it when you are doing this, and copy its list into the project's own instructions. Agentware runs a lot of processes and leaves a lot behind, and a machine that fills up gets slow in ways that look like the agents getting worse. Bake the list below into the project's own context file so it happens without anyone remembering.
 
 ## The machine
 

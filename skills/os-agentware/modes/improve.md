@@ -28,7 +28,7 @@ Pick the lightest form that does the job, and notice that a paragraph asking the
 
 **Trim as you go.** Folding a decision into the files is the moment to shorten its entry. Closing a slice is the moment to move settled state out of the door file. Archive rather than delete when there is any chance someone wants the history. What a session is forced to read should be what is active or recently finished.
 
-**Write through skillify, then clean.** Changes to skills, modes, SOPs, and references go through `os-skillify` (its extend and refine paths), followed by its cleanup mode. The cleanup pass is what keeps the system's own files from drifting toward how a model writes by default, and that drift is the one failure that spreads.
+**Write through skillify, then clean.** Changes to skills, modes, SOPs, and references go through `os-skillify` (its extend and refine paths), followed by the cleanup pass. The cleanup pass is what keeps the system's own files from drifting toward how a model writes by default, and that drift is the one failure that spreads.
 
 ## Output
 

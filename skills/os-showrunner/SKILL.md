@@ -54,7 +54,7 @@ Write state at the moment of the decision, not at the end of the session, becaus
 
 ## Keeping the machine clean
 
-Milestones and checkpoints are when the machine gets cleaned up: worktrees, caches, containers, temp folders, stray processes. The list is `../../sops/cleanup-at-milestones.md`; put it in the project's own instructions so it happens without you.
+Milestones and checkpoints are when the machine gets cleaned up: worktrees, caches, containers, temp folders, stray processes. The list is `references/cleanup-at-milestones.md`; put it in the project's own instructions so it happens without you.
 
 ## Unattended runs
 

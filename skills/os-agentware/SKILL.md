@@ -58,7 +58,7 @@ Pick one and open its file. The modes are written to be read, not inferred from 
 
 **Hygiene.** Clean up worktrees, caches, containers, and temp folders at milestones and checkpoints. Keep always-loaded files lean. Trim or archive state that has settled. Subagents keep the main thread's token use down; use them for reading, checking, and bounded work.
 
-**Write skills the house way.** Skills, modes, SOPs, and references this skill produces get written through `os-skillify`, which loads `../_shared/references/skill-prompting-principles.md` and runs its cleanup mode after writing. Those principles are what keep a self-improving system from drifting into the model's default register, and that drift leaks into everything the system then produces.
+**Write skills the house way.** Skills, modes, SOPs, and references this skill produces get written through `os-skillify`, which loads `../_shared/references/skill-prompting-principles.md`, and then get the cleanup pass (skillify's cleanup mode, or `os-hazmat` where that pass ships as a skill of its own). Those principles are what keep a self-improving system from drifting into the model's default register, and that drift leaks into everything the system then produces.
 
 ## Related skills
 

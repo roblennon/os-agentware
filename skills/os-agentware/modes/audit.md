@@ -24,7 +24,7 @@ The judgment tells stay with you. Each is a question, and a yes is a finding:
 
 Rank what you found by how much daily work it touches, not by how easy it is to fix. Three to five things at the top, the rest below. For each, the file, the evidence, and who reads that file and what goes wrong when it lies.
 
-Fixes go through `improve`, and register repair through `os-skillify`'s cleanup mode, after the audit rather than during it. Fixing as you go turns the audit into a different job halfway through, and the findings stop being comparable.
+Fixes go through `improve`, and register repair through the cleanup pass, after the audit rather than during it. Fixing as you go turns the audit into a different job halfway through, and the findings stop being comparable.
 
 ## Output
 

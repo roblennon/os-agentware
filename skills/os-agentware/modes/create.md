@@ -22,7 +22,7 @@ Stand up a system that does one real thing end to end, inside whatever conventio
 
 **Write the first rules from real corrections, not from imagination.** Seed the skills with a little craft, run a real session, and harvest what the operator had to say twice. That is the material. `../references/encoding-the-operator.md` has the method, and `../references/rules-and-gates.md` has the shape a rule takes so it does not harden into a gate nobody wanted.
 
-**Hand the writing to skillify.** The skills, SOPs, and briefs you decide the system needs get written through `os-skillify`, then cleaned with its cleanup mode. You decide what and why. It makes the file sound like a person wrote it.
+**Hand the writing to skillify.** The skills, SOPs, and briefs you decide the system needs get written through `os-skillify`, then cleaned with the cleanup pass. You decide what and why. It makes the file sound like a person wrote it.
 
 ## Output
 

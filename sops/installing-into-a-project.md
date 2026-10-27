@@ -16,6 +16,10 @@ Before relying on a link for an unattended run, prove it: dispatch one minimal h
 
 ## The shared references
 
+The two skills refer to `os-skillify` by name for writing and cleaning up instruction files. Any skill-authoring skill that loads the shared prompting principles and runs a cleanup pass after writing serves the same job.
+
+## What they load
+
 `os-skillify` loads files from `skills/_shared/references/`. A link or copy of a single skill folder breaks those pointers. Link or copy the whole `skills/` tree, or at least the skill plus `_shared/`.
 
 ## The door line

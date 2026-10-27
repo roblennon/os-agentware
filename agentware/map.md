@@ -20,10 +20,11 @@ os-agentware/
       references/project-state.md  the state/map/decisions/briefs layout, as a default that flexes; trimming and archiving
       references/delegation.md     workers, lieutenants, briefs, several agents on one tree
       references/unattended.md     heartbeats, one engine, stop conditions, dead-thread recovery
+      references/cleanup-at-milestones.md  what to clear at a slice close or milestone, for the project's own instructions
       briefs/                      reusable worker briefs: surveyor, cold reader
     os-skillify/                   skill authoring and repair: generative modes, extend, refine, enhance, dual-lane, consolidate, cleanup (nicknamed hazmat)
     _shared/references/            prompting principles, update protocol, frontmatter rules, naming, skill-vs-mode-vs-reference, self-extending, example rules, scaffolding, SOP completeness, AI writing patterns, context capacity
-  sops/                            installing into a project, cleanup at milestones
+  sops/                            installing into a project
 ```
 
 ## Crew
